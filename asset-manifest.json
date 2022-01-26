@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/severin-hanke/static/css/main.57636243.css",
-    "main.js": "/severin-hanke/static/js/main.ddb644dc.js",
-    "static/js/787.122d235c.chunk.js": "/severin-hanke/static/js/787.122d235c.chunk.js",
-    "static/media/magic.mp4": "/severin-hanke/static/media/magic.c1cd421cdcdcdd816d26.mp4",
-    "static/media/MangaSeverin-512.png": "/severin-hanke/static/media/MangaSeverin-512.efd29a429f41f4350cf9.png",
-    "static/media/Pokeball.png": "/severin-hanke/static/media/Pokeball.2171ba033ffe64102d49.png",
-    "index.html": "/severin-hanke/index.html",
-    "main.57636243.css.map": "/severin-hanke/static/css/main.57636243.css.map",
-    "main.ddb644dc.js.map": "/severin-hanke/static/js/main.ddb644dc.js.map",
-    "787.122d235c.chunk.js.map": "/severin-hanke/static/js/787.122d235c.chunk.js.map"
+    "main.css": "/static/css/main.57636243.css",
+    "main.js": "/static/js/main.4c9f450e.js",
+    "static/js/787.122d235c.chunk.js": "/static/js/787.122d235c.chunk.js",
+    "static/media/magic.mp4": "/static/media/magic.c1cd421cdcdcdd816d26.mp4",
+    "static/media/MangaSeverin-512.png": "/static/media/MangaSeverin-512.efd29a429f41f4350cf9.png",
+    "static/media/Pokeball.png": "/static/media/Pokeball.2171ba033ffe64102d49.png",
+    "index.html": "/index.html",
+    "main.57636243.css.map": "/static/css/main.57636243.css.map",
+    "main.4c9f450e.js.map": "/static/js/main.4c9f450e.js.map",
+    "787.122d235c.chunk.js.map": "/static/js/787.122d235c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.57636243.css",
-    "static/js/main.ddb644dc.js"
+    "static/js/main.4c9f450e.js"
   ]
 }
