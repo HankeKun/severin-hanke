@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/severin-hanke/static/css/main.4fc56ed4.css",
-    "main.js": "/severin-hanke/static/js/main.a63a2b01.js",
+    "main.css": "/severin-hanke/static/css/main.4d685732.css",
+    "main.js": "/severin-hanke/static/js/main.6e4f0654.js",
     "static/js/787.122d235c.chunk.js": "/severin-hanke/static/js/787.122d235c.chunk.js",
+    "static/media/magic.mp4": "/severin-hanke/static/media/magic.c1cd421cdcdcdd816d26.mp4",
     "static/media/MangaSeverin-512.png": "/severin-hanke/static/media/MangaSeverin-512.efd29a429f41f4350cf9.png",
     "index.html": "/severin-hanke/index.html",
-    "main.4fc56ed4.css.map": "/severin-hanke/static/css/main.4fc56ed4.css.map",
-    "main.a63a2b01.js.map": "/severin-hanke/static/js/main.a63a2b01.js.map",
+    "main.4d685732.css.map": "/severin-hanke/static/css/main.4d685732.css.map",
+    "main.6e4f0654.js.map": "/severin-hanke/static/js/main.6e4f0654.js.map",
     "787.122d235c.chunk.js.map": "/severin-hanke/static/js/787.122d235c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc56ed4.css",
-    "static/js/main.a63a2b01.js"
+    "static/css/main.4d685732.css",
+    "static/js/main.6e4f0654.js"
   ]
 }
