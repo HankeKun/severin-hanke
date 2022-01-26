@@ -9,12 +9,20 @@ function Footer() {
             <footer id="div-footer">
                 <div>
                     <span>Webseite erstellt von Severin Hanke</span>
-                    <a href="https://reactjs.org/">React JS</a>
-                    <FontAwesomeIcon icon={faReact} />
-                    <a href="https://getbootstrap.com/">Bootstrap</a>
-                    <FontAwesomeIcon icon={faBootstrap} />
-                    <a href="https://fontawesome.com/">FontAwesome</a>
-                    <FontAwesomeIcon icon={faFontAwesome} />
+                    <a href="https://reactjs.org/">
+                        React JS
+                        <FontAwesomeIcon icon={faReact} />
+                    </a>
+
+                    <a href="https://getbootstrap.com/">
+                        Bootstrap
+                        <FontAwesomeIcon icon={faBootstrap} />
+                    </a>
+
+                    <a href="https://fontawesome.com/">
+                        FontAwesome
+                        <FontAwesomeIcon icon={faFontAwesome} />
+                    </a>
                 </div>
             </footer>
         </div>

@@ -19,7 +19,12 @@
 }
 
 #div-footer div a {
+    color: #0a58ca;
     margin-left: 15px;
+}
+
+#div-footer div a:link, #div-footer div a:active {
+    text-decoration: none;
 }
 
 #div-footer div svg {

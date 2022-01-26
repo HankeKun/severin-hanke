@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import AboutMe from './AboutMe';
+import Links from "./Links";
 import Impressum from './Impressum';
 import Footer from "./Footer";
 
@@ -14,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <AboutMe />
+    <Links/>
     <Impressum />
     <Footer />
   </React.StrictMode>,

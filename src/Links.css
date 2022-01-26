@@ -1,15 +1,31 @@
-.Impressum {
+.Links {
     text-align: center;
     z-index: 2;
-    background-color: #0a58ca;
+    background-color: royalblue;
 }
 
-.impressum-container {
+.links-container {
     padding-top: 12vh;
     padding-bottom: 12vh;
 }
 
-#h1-impressum {
+#link-symbols a {
+    position: relative;
+    margin: auto;
+    padding-left: 2vw;
+    color: white;
+    font-size: 3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-symbols a img {
+    position: relative;
+    height: 3rem;
+}
+
+#h1-links {
     position: relative;
     margin: auto;
     padding-top: 1vh;
@@ -19,7 +35,7 @@
     white-space: nowrap;
 }
 
-#div-impressum {
+#div-links{
     position: relative;
     margin: auto;
     color: white;
@@ -27,7 +43,7 @@
 }
 
 @media screen and (max-width: 560px) {
-    .impressum-container {
+    .links-container {
         padding-top: 6vh;
         padding-bottom: 6vh;
     }

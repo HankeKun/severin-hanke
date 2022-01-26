@@ -12,6 +12,8 @@
 #h1-aboutme {
     position: relative;
     margin: auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     color: white;
     font-size: 3rem;
     white-space: nowrap;
