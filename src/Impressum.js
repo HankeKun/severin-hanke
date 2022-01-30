@@ -11,7 +11,7 @@ function Impressum() {
                     <Col>
                         <div id="div-impressum">
                             Diese Seite ist laut § 55 RStV eine rein private Seite und benötigt somit kein Impressum.
-                            Es werden auf dieser Seite keine Werbebanner oder sonstige kommerzielle Tätigkieten ausgeführt.
+                            Es werden auf dieser Seite keine Werbebanner oder sonstige kommerzielle Tätigkeiten ausgeführt.
                         </div>
                     </Col>
                 </Row>

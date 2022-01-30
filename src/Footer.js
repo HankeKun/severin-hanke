@@ -9,17 +9,17 @@ function Footer() {
             <footer id="div-footer">
                 <div>
                     <span>Webseite erstellt von Severin Hanke</span>
-                    <a href="https://reactjs.org/">
+                    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
                         React JS
                         <FontAwesomeIcon icon={faReact} />
                     </a>
 
-                    <a href="https://getbootstrap.com/">
+                    <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
                         Bootstrap
                         <FontAwesomeIcon icon={faBootstrap} />
                     </a>
 
-                    <a href="https://fontawesome.com/">
+                    <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">
                         FontAwesome
                         <FontAwesomeIcon icon={faFontAwesome} />
                     </a>
