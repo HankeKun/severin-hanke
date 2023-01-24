@@ -16,7 +16,7 @@ function Header() {
                         <Col><Image id="image-severin" src={MangaSeverin} roundedCircle="true" /></Col>
                         <Col id="black-background">
                             <h1 id="h1-title">Severin Hanke</h1>
-                            <div id="div-title">Informatik-Student & Softwareentwickler</div>
+                            <div id="div-title">Mobile Computing-Student & App-Entwickler</div>
                         </Col>
                     </Row>
                 </Container>
