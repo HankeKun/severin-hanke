@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.600ba9ca.css",
-    "main.js": "/static/js/main.5dd95ea3.js",
+    "main.js": "/static/js/main.1ed80758.js",
     "static/js/496.f414b561.chunk.js": "/static/js/496.f414b561.chunk.js",
-    "static/media/magic.mp4": "/static/media/magic.c1cd421cdcdcdd816d26.mp4",
+    "static/media/magic.mp4": "/static/media/magic.5e5eccae4495403238bf.mp4",
     "static/media/MangaSeverin-512.png": "/static/media/MangaSeverin-512.efd29a429f41f4350cf9.png",
     "static/media/Pokeball.png": "/static/media/Pokeball.2171ba033ffe64102d49.png",
     "index.html": "/index.html",
     "main.600ba9ca.css.map": "/static/css/main.600ba9ca.css.map",
-    "main.5dd95ea3.js.map": "/static/js/main.5dd95ea3.js.map",
+    "main.1ed80758.js.map": "/static/js/main.1ed80758.js.map",
     "496.f414b561.chunk.js.map": "/static/js/496.f414b561.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.600ba9ca.css",
-    "static/js/main.5dd95ea3.js"
+    "static/js/main.1ed80758.js"
   ]
 }
