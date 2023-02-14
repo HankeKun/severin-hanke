@@ -1,32 +1,27 @@
-import {Col, Container, Row} from "react-bootstrap";
+import './Header.css';
+import {Nav, Navbar} from "react-bootstrap";
+import React from "react";
 
 function Header() {
-    function handleSwitchPage(e: any, page: string) {
-        e.preventDefault();
-        window.location.href = page;
-    }
-
     return (
-        <div className="Header">
-            <header>
-                <Container>
-                    <Row>
-                        <Col>
-                            <div onClick={(e) => handleSwitchPage(e, '/')}>Startseite</div>
-                        </Col>
-                        <Col>
-                            <div onClick={(e) => handleSwitchPage(e, '/about-me')}>Über mich</div>
-                        </Col>
-                        <Col>
-                            <div onClick={(e) => handleSwitchPage(e, '/links')}>Links</div>
-                        </Col>
-                        <Col>
-                            <div onClick={(e) => handleSwitchPage(e, '/impressum')}>Impressum</div>
-                        </Col>
-                    </Row>
-                </Container>
-            </header>
-        </div>
+        <header>
+            <Navbar fixed="top">
+                <Nav className="m-auto">
+                    <Nav.Item>
+                        <Nav.Link href="/">Startseite</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/about-me">Über mich</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/links">Links</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/impressum">Impressum</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+            </Navbar>
+        </header>
     );
 }
 
