@@ -1,10 +1,13 @@
 import './AboutMe.css';
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function AboutMe() {
     return (
         <div className="AboutMe">
+            <Header />
             <Container className="aboutme-container">
                 <Row>
                     <Col><h1 id="h1-aboutme">Über mich</h1></Col>
@@ -17,6 +20,7 @@ function AboutMe() {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     );
 }

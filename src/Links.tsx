@@ -1,14 +1,17 @@
 import './Links.css';
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import { faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faInstagram} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Pokeball from "./Pokeball.png";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Pokeball from "./images/Pokeball.png";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Links() {
     return (
         <div className="Links">
+            <Header />
             <Container className="links-container">
                 <Row>
                     <Col><h1 id="h1-links">Links</h1></Col>
@@ -28,6 +31,7 @@ function Links() {
                     </Col>
                 </Row>
             </Container>
+            <Footer />
         </div>
     );
 }

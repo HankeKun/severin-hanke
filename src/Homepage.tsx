@@ -1,19 +1,22 @@
-import './Header.css';
+import './Homepage.css';
 import React from "react";
 import {Col, Container, Image, Row} from "react-bootstrap";
-import MangaSeverin from "./MangaSeverin-512.png";
-import video from "./magic.mp4"
+import MangaSeverin from "./images/MangaSeverin-512.png";
+import video from "./images/magic.mp4"
+import Header from "./Header";
+import Footer from "./Footer";
 
-function Header() {
+function Homepage() {
     return (
-        <div className="Header">
+        <div className="Homepage">
+            <Header />
             <div className="video-header">
-                <video id="video" playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
+                <video id="video" playsInline={true} autoPlay={true} muted={true} loop={true}>
                     <source src={video} type="video/mp4" />
                 </video>
                 <Container className="title-container" >
                     <Row>
-                        <Col><Image id="image-severin" src={MangaSeverin} roundedCircle="true" /></Col>
+                        <Col><Image id="image-severin" src={MangaSeverin} roundedCircle={true} /></Col>
                         <Col id="black-background">
                             <h1 id="h1-title">Severin Hanke</h1>
                             <div id="div-title">Mobile Computing-Student & App-Entwickler</div>
@@ -21,8 +24,9 @@ function Header() {
                     </Row>
                 </Container>
             </div>
+            <Footer />
         </div>
     );
 }
 
-export default Header;
+export default Homepage;
