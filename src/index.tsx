@@ -3,7 +3,6 @@ import ReactDOMClient from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './tests/reportWebVitals';
 
 import Homepage from './Homepage';

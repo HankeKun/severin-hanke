@@ -1,26 +1,23 @@
-import './Header.css';
-import {Nav, Navbar} from "react-bootstrap";
+import styles from './Header.module.css';
 import React from "react";
 
 function Header() {
     return (
         <header>
-            <Navbar fixed="top">
-                <Nav className="m-auto">
-                    <Nav.Item>
-                        <Nav.Link href="/">Startseite</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/about-me">Über mich</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/links">Links</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/impressum">Impressum</Nav.Link>
-                    </Nav.Item>
-                </Nav>
-            </Navbar>
+            <ul className="m-auto">
+                <li>
+                    <a className={styles.navLink} href="/">Startseite</a>
+                </li>
+                <li>
+                    <a className={styles.navLink} href="/about-me">Über mich</a>
+                </li>
+                <li>
+                    <a className={styles.navLink} href="/links">Links</a>
+                </li>
+                <li>
+                    <a className={styles.navLink} href="/impressum">Impressum</a>
+                </li>
+            </ul>
         </header>
     );
 }

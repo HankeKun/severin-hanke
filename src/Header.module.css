@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+.navLink {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
