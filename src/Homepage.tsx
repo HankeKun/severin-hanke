@@ -17,7 +17,7 @@ function Homepage() {
                 <div className="title-container" >
                     <table>
                         <tr>
-                            <td><img id="image-severin" src={MangaSeverin} /></td>
+                            <td><img id="image-severin" src={MangaSeverin} alt="Manga Severin" /></td>
                             <td id="black-background">
                                 <h1 id="h1-title">Severin Hanke</h1>
                                 <div id="div-title">Mobile Computing-Student & App-Entwickler</div>
