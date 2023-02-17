@@ -1,32 +1,21 @@
-.Footer {
+footer {
     text-align: center;
-    z-index: 2;
-    background-color: white;
-}
-
-#div-footer {
-    text-align: center;
-    z-index: 2;
+    background-color: #b3ccff;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.3rem;
     color: black;
 }
 
-#div-footer div {
-    position: relative;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    font-size: 1.3rem;
-    display: inline-block;
-}
-
-#div-footer div a {
+footer a {
     color: #0a58ca;
     margin-left: 15px;
 }
 
-#div-footer div a:link, #div-footer div a:active {
+footer a:link, footer a:active {
     text-decoration: none;
 }
 
-#div-footer div svg {
+footer a svg {
     margin-left: 5px;
 }

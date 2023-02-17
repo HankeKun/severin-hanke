@@ -6,27 +6,20 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 function Homepage() {
-    // make picture rounded
     return (
-        <div className="Homepage">
-            <Header />
-            <div className="video-header">
-                <video id="video" playsInline={true} autoPlay={true} muted={true} loop={true}>
-                    <source src={video} type="video/mp4" />
-                </video>
-                <div className="title-container" >
-                    <table>
-                        <tr>
-                            <td><img id="image-severin" src={MangaSeverin} alt="Manga Severin" /></td>
-                            <td id="black-background">
-                                <h1 id="h1-title">Severin Hanke</h1>
-                                <div id="div-title">Mobile Computing-Student & App-Entwickler</div>
-                            </td>
-                        </tr>
-                    </table>
+        <div id="homepage-div">
+            <Header/>
+            <video id="homepage-video" playsInline={true} autoPlay={true} muted={true} loop={true}>
+                    <source src={video} type="video/mp4"/>
+            </video>
+            <span id="homepage-title">
+                <img src={MangaSeverin} alt="Manga Severin"/>
+                <div>
+                    <h1>Severin Hanke</h1>
+                    <span>Mobile Computing-Student & App-Entwickler</span>
                 </div>
-            </div>
-            <Footer />
+            </span>
+            <Footer/>
         </div>
     );
 }

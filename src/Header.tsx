@@ -1,16 +1,14 @@
-import styles from './Header.module.css';
+import './Header.css';
 import React from "react";
 
 function Header() {
     return (
         <header>
             <nav>
-                <div>
-                    <a className={styles.navLink} href="/">Startseite</a>
-                    <a className={styles.navLink} href="/about-me">Über mich</a>
-                    <a className={styles.navLink} href="/links">Links</a>
-                    <a className={styles.navLink} href="/impressum">Impressum</a>
-                </div>
+                <a href="/">Startseite</a>
+                <a href="/about-me">Über mich</a>
+                <a href="/links">Links</a>
+                <a href="/impressum">Impressum</a>
             </nav>
         </header>
     );
