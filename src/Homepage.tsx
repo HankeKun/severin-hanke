@@ -10,15 +10,15 @@ function Homepage() {
         <div id="homepage-div">
             <Header/>
             <video id="homepage-video" playsInline={true} autoPlay={true} muted={true} loop={true}>
-                    <source src={video} type="video/mp4"/>
+                <source src={video} type="video/mp4"/>
             </video>
-            <span id="homepage-title">
+            <div id="homepage-content">
                 <img src={MangaSeverin} alt="Manga Severin"/>
-                <div>
+                <div id="homepage-title">
                     <h1>Severin Hanke</h1>
-                    <span>Mobile Computing-Student & App-Entwickler</span>
+                    <div>Mobile Computing-Student & App-Entwickler</div>
                 </div>
-            </span>
+            </div>
             <Footer/>
         </div>
     );

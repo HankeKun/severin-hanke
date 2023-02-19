@@ -1,5 +1,6 @@
 header {
     text-align: center;
+    z-index: 1;
 }
 
 header nav a {

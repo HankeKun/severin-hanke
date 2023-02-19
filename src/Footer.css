@@ -1,10 +1,11 @@
 footer {
     text-align: center;
     background-color: #b3ccff;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 1.3rem;
     color: black;
+    z-index: 1;
 }
 
 footer a {
