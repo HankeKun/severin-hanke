@@ -5,20 +5,14 @@ import Footer from "./Footer";
 
 function Impressum() {
     return (
-        <div className="Impressum">
+        <div id="impressum-div">
             <Header />
-            <div className="impressum-container">
-                <table>
-                    <tr>
-                        <td><h1 id="h1-impressum">Impressum</h1></td>
-                        <td>
-                            <div id="div-impressum">
-                                Diese Seite ist laut § 55 RStV eine rein private Seite und benötigt somit kein Impressum.
-                                Es werden auf dieser Seite keine Werbebanner oder sonstige kommerzielle Tätigkeiten ausgeführt.
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+            <div id="impressum-content">
+                <h1>Impressum</h1>
+                <div>
+                    Diese Seite ist laut § 55 RStV eine rein private Seite und benötigt somit kein Impressum.
+                    Es werden auf dieser Seite keine Werbebanner oder sonstige kommerzielle Tätigkeiten ausgeführt.
+                </div>
             </div>
             <Footer />
         </div>
