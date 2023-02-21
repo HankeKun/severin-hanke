@@ -1,5 +1,6 @@
 #impressum-div {
     background-color: royalblue;
+    min-height: 100vh;
 }
 
 #impressum-content {
@@ -10,10 +11,9 @@
 
 #impressum-content h1 {
     font-size: 4rem;
-    margin: 40px 0 20px;
+    margin: 0 0 20px;
 }
 
 #impressum-content div {
-    margin-bottom: 40px;
     font-size: 1.8rem;
 }
