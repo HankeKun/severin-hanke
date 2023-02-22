@@ -1,50 +1,40 @@
-.Links {
-    text-align: center;
-    z-index: 2;
+#links-div {
     background-color: royalblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.links-container {
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+#links-content {
+    text-align: center;
+    width: max(500px, 50%);
+    margin: 0 auto;
+    flex: 1;
 }
 
-#link-symbols a {
-    position: relative;
-    margin: auto;
-    padding-left: 2vw;
+#links-content h1 {
+    font-size: 4rem;
+    margin: 0 0 20px;
+}
+
+.links-a {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.links-a span {
     color: white;
-    font-size: 3rem;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.4rem;
 }
 
-#link-symbols a img {
-    position: relative;
-    height: 3rem;
+.links-a a {
+    /*display: inline-block;*/
+    height: 5rem;
+    margin-bottom: 5px;
 }
 
-#h1-links {
-    position: relative;
-    margin: auto;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+.links-a a svg, .links-a a img {
     color: white;
-    font-size: 3rem;
-    white-space: nowrap;
-}
-
-#div-links{
-    position: relative;
-    margin: auto;
-    color: white;
-    font-size: 1.6rem;
-}
-
-@media screen and (max-width: 560px) {
-    .links-container {
-        padding-top: 6vh;
-        padding-bottom: 6vh;
-    }
+    height: 5rem;
 }

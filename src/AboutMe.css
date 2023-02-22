@@ -1,34 +1,22 @@
-.AboutMe {
+#aboutme-div {
+    background-color: royalblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme-content {
     text-align: center;
-    z-index: 2;
-    background-color: steelblue;
+    width: max(500px, 50%);
+    margin: 0 auto;
+    flex: 1;
 }
 
-.aboutme-container {
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+#aboutme-content h1 {
+    font-size: 4rem;
+    margin: 0 0 20px;
 }
 
-#h1-aboutme {
-    position: relative;
-    margin: auto;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    color: white;
-    font-size: 3rem;
-    white-space: nowrap;
-}
-
-#div-aboutme {
-    position: relative;
-    margin: auto;
-    color: white;
-    font-size: 1.6rem;
-}
-
-@media screen and (max-width: 560px) {
-    .aboutme-container {
-        padding-top: 6vh;
-        padding-bottom: 6vh;
-    }
+#aboutme-content div {
+    font-size: 1.8rem;
 }
