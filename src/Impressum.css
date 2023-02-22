@@ -1,12 +1,15 @@
 #impressum-div {
     background-color: royalblue;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #impressum-content {
     text-align: center;
     width: max(500px, 50%);
     margin: 0 auto;
+    flex: 1;
 }
 
 #impressum-content h1 {
