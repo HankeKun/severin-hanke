@@ -9,6 +9,7 @@ import Homepage from './Homepage';
 import AboutMe from "./AboutMe";
 import Links from "./Links";
 import Impressum from "./Impressum";
+import Galerie from "./Galerie";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -20,6 +21,7 @@ root.render(
               <Route index element={<Homepage/>}/>
               <Route path="/about-me" element={<AboutMe/>}/>
               <Route path="/links" element={<Links/>}/>
+              <Route path="/galerie" element={<Galerie/>}/>
               <Route path="/impressum" element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>
