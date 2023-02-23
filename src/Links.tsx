@@ -40,7 +40,7 @@ function Links() {
                     <a href="https://www.pokewiki.de/Darkrai" title="Lieblingspokémon" target="_blank"
                        rel="noopener noreferrer">
                         <img src={Pokeball} alt="Pokeball"/>
-                        <span>PokéWiki</span>
+                        <span>Lieblingspokémon</span>
                     </a>
                 </div>
             </div>

@@ -13,10 +13,12 @@
 }
 
 #impressum-content h1 {
+    color: midnightblue;
     font-size: 4rem;
     margin: 0 0 20px;
 }
 
 #impressum-content div {
+    color: white;
     font-size: 1.8rem;
 }

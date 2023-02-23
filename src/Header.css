@@ -5,6 +5,11 @@ header {
     z-index: 1;
 }
 
+header nav {
+    margin-left: env(safe-area-inset-left);
+    margin-right: env(safe-area-inset-right);
+}
+
 header nav a {
     display: inline-block;
     padding: 1rem 2rem;
