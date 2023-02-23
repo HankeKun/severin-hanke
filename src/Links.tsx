@@ -13,44 +13,35 @@ function Links() {
             <Header/>
             <div id="links-content">
                 <h1>Links</h1>
-                <div className="links-a">
+                <div id="links-a">
                     <a href="https://github.com/HankeKun" title="GitHub" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub}/>
+                        <span>GitHub</span>
                     </a>
-                    <span>GitHub</span>
-                </div>
-                <div className="links-a">
-                    <a href="https://www.instagram.com/HankeKun/" title="Instagram" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/HankeKun/" title="Instagram" target="_blank"
+                       rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram}/>
+                        <span>Instagram</span>
                     </a>
-                    <span>Instagram</span>
-                </div>
-                <div className="links-a">
                     <a href="mailto:mail@severin-hanke.de" title="Email">
                         <FontAwesomeIcon icon={faEnvelope}/>
+                        <span>E-Mail</span>
                     </a>
-                    <span>E-Mail</span>
-                </div>
-                <div className="links-a">
                     <a href="https://www.youtube.com/@HankeKun" title="YouTube" target="_blank"
                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faYoutube}/>
+                        <span>YouTube</span>
                     </a>
-                    <span>YouTube</span>
-                </div>
-                <div className="links-a">
                     <a href="https://www.twitter.com/HankeKun" title="Twitter" target="_blank"
                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faTwitter}/>
+                        <span>Twitter</span>
                     </a>
-                    <span>Twitter</span>
-                </div>
-                <div className="links-a">
                     <a href="https://www.pokewiki.de/Darkrai" title="Lieblingspokémon" target="_blank"
                        rel="noopener noreferrer">
                         <img src={Pokeball} alt="Pokeball"/>
+                        <span>PokéWiki</span>
                     </a>
-                    <span>PokéWiki</span>
                 </div>
             </div>
             <Footer/>
