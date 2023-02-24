@@ -7,8 +7,7 @@
 
 #galerie-content {
     text-align: center;
-    width: 50%;
-    margin: 0 auto;
+    margin: 0 2vw;
     flex: 1;
 }
 
@@ -18,7 +17,43 @@
     margin: 0 0 20px;
 }
 
-#galerie-content div {
-    color: white;
-    font-size: 1.8rem;
+#galerie-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#galerie-images img {
+    margin: 5px;
+    width: 18vw;
+    height: 18vw;
+    object-fit: cover;
+}
+
+@media(max-width: 1600px) {
+    #galerie-images img {
+        width: 22vw;
+        height: 22vw;
+    }
+}
+
+@media(max-width: 1200px) {
+    #galerie-images img {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+@media(max-width: 800px) {
+    #galerie-images img {
+        width: 42vw;
+        height: 42vw;
+    }
+}
+
+@media(max-width: 350px) {
+    #galerie-images img {
+        width: 75vw;
+        height: 75vw;
+    }
 }
