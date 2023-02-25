@@ -1,4 +1,4 @@
-import './Footer.css';
+import "./Footer.css";
 import React from "react";
 import {faReact, faFontAwesome} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

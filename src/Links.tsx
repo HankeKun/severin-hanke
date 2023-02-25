@@ -1,4 +1,4 @@
-import './Links.css';
+import "./Links.css";
 import React from "react";
 import {faGithub, faInstagram, faTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";

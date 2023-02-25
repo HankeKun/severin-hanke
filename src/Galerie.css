@@ -28,6 +28,7 @@
     width: 18vw;
     height: 18vw;
     object-fit: cover;
+    cursor: pointer;
 }
 
 @media(max-width: 1600px) {

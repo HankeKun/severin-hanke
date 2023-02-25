@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOMClient from 'react-dom/client';
+import React from "react";
+import ReactDOMClient from "react-dom/client";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
-import './index.css';
-import reportWebVitals from './tests/reportWebVitals';
+import "./index.css";
+import reportWebVitals from "./tests/reportWebVitals";
 
-import Homepage from './Homepage';
+import Homepage from "./Homepage";
 import AboutMe from "./AboutMe";
 import Links from "./Links";
 import Impressum from "./Impressum";
