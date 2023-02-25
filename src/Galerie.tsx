@@ -1,4 +1,5 @@
 import "./Galerie.css";
+import "./GalerieMedia.css";
 import React, {useCallback, useState} from "react";
 import Header from "./Header";
 import Footer from "./Footer";

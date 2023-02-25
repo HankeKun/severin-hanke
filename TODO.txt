@@ -1,0 +1,3 @@
+- Add css medias for Homepage, Header and Footer
+- Galerie adjustment, to make more than one event
+- Add more Event Photos in the Galerie

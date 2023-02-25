@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1199px) {
+    #aboutme-content {
+        width: 60%;
+    }
+
+    #aboutme-content h1 {
+        font-size: 3.8rem;
+    }
+
+    #aboutme-content div {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #aboutme-content {
+        width: 65%;
+    }
+
+    #aboutme-content h1 {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #aboutme-content {
+        width: 80%;
+    }
+
+    #aboutme-content h1 {
+        font-size: 3.2rem;
+    }
+
+    #aboutme-content div {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    #aboutme-content h1 {
+        font-size: 3rem;
+    }
+
+    #aboutme-content div {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #aboutme-content h1 {
+        font-size: 2.6rem;
+    }
+
+    #aboutme-content div {
+        font-size: 1.2rem;
+    }
+}

@@ -35,31 +35,3 @@
     margin-left: env(safe-area-inset-left);
     margin-right: env(safe-area-inset-right);
 }
-
-@media (max-width: 1600px) {
-    #galerie-images img {
-        width: 22vw;
-        height: 22vw;
-    }
-}
-
-@media (max-width: 1200px) {
-    #galerie-images img {
-        width: 30vw;
-        height: 30vw;
-    }
-}
-
-@media (max-width: 800px) {
-    #galerie-images img {
-        width: 42vw;
-        height: 42vw;
-    }
-}
-
-@media (max-width: 350px) {
-    #galerie-images img {
-        width: 75vw;
-        height: 75vw;
-    }
-}
