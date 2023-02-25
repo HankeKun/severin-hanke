@@ -4,7 +4,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 import ImageViewer from "react-simple-image-viewer";
 import {LazyLoadImage} from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
 
 import BadKreuznach1Placeholder from "./images/2023_Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
 import BadKreuznach2Placeholder from "./images/2023_Bad-Kreuznach/Bad-Kreuznach-2-placeholder.jpg";

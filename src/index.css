@@ -16,3 +16,12 @@ code {
 html, body, #root {
   min-height: 100vh;
 }
+
+.lazy-load-image-background.blur.lazy-load-image-loaded {
+  filter: blur(0);
+  transition: filter .3s;
+}
+
+.lazy-load-image-background.blur {
+  filter: blur(5px);
+}
