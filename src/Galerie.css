@@ -7,7 +7,7 @@
 
 #galerie-content {
     text-align: center;
-    margin: 0 2vw;
+    margin: 0 max(2vw, env(safe-area-inset-right)) 0 max(2vw, env(safe-area-inset-left));
     flex: 1;
 }
 
@@ -31,28 +31,28 @@
     cursor: pointer;
 }
 
-@media(max-width: 1600px) {
+@media (max-width: 1600px) {
     #galerie-images img {
         width: 22vw;
         height: 22vw;
     }
 }
 
-@media(max-width: 1200px) {
+@media (max-width: 1200px) {
     #galerie-images img {
         width: 30vw;
         height: 30vw;
     }
 }
 
-@media(max-width: 800px) {
+@media (max-width: 800px) {
     #galerie-images img {
         width: 42vw;
         height: 42vw;
     }
 }
 
-@media(max-width: 350px) {
+@media (max-width: 350px) {
     #galerie-images img {
         width: 75vw;
         height: 75vw;

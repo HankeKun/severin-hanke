@@ -7,7 +7,7 @@
 
 #links-content {
     text-align: center;
-    margin: 0 2vw;
+    margin: 0 max(2vw, env(safe-area-inset-right)) 0 max(2vw, env(safe-area-inset-left));
     flex: 1;
 }
 
