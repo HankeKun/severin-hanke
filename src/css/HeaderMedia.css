@@ -1,0 +1,27 @@
+@media only screen and (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hamburger-menu {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .change {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+
+}
+
+@media only screen and (max-width: 399px) {
+
+}

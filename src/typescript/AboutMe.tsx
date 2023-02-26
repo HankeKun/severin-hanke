@@ -1,5 +1,5 @@
-import "./AboutMe.css";
-import "./AboutMeMedia.css";
+import "../css/AboutMe.css";
+import "../css/AboutMeMedia.css";
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";

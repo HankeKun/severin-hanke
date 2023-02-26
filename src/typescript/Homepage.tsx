@@ -1,10 +1,10 @@
-import "./Homepage.css";
+import "../css/Homepage.css";
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import MangaSeverin from "./images/MangaSeverin-512.png";
-import video from "./images/magic.mp4"
+import MangaSeverin from "../images/MangaSeverin-512.png";
+import video from "../images/magic.mp4"
 
 function Homepage() {
     return (

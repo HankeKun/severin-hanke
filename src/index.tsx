@@ -5,11 +5,11 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./tests/reportWebVitals";
 
-import Homepage from "./Homepage";
-import AboutMe from "./AboutMe";
-import Links from "./Links";
-import Impressum from "./Impressum";
-import Galerie from "./Galerie";
+import Homepage from "./typescript/Homepage";
+import AboutMe from "./typescript/AboutMe";
+import Links from "./typescript/Links";
+import Impressum from "./typescript/Impressum";
+import Galerie from "./typescript/Galerie";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement

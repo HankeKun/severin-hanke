@@ -1,5 +1,5 @@
-import "./Impressum.css";
-import "./ImpressumMedia.css";
+import "../css/Impressum.css";
+import "../css/ImpressumMedia.css";
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";

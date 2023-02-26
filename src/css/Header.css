@@ -29,3 +29,33 @@ header nav a:hover {
 header nav a:active {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+#hamburger-menu {
+    display: none;
+    margin-left: auto;
+    padding: 1.5rem 1.5rem;
+    cursor: pointer;
+}
+
+#hamburger-menu-bar2 {
+    margin: 6px 0;
+}
+
+#hamburger-menu-bar1, #hamburger-menu-bar2, #hamburger-menu-bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #222;
+    transition: 0.4s;
+}
+
+.change #hamburger-menu-bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change #hamburger-menu-bar2 {
+    opacity: 0;
+}
+
+.change #hamburger-menu-bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
