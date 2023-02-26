@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+    #homepage-content {
+        flex-direction: column;
+    }
+
+    #homepage-content img {
+        margin: 15px auto;
+        max-width: 65%;
+    }
+
+    #homepage-title {
+        margin: auto 15px auto 15px;
+    }
+
+    #homepage-title h1 {
+        font-size: 4rem;
+    }
+
+    #homepage-title div {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    #homepage-content img {
+        max-width: 75%;
+    }
+
+    #homepage-title h1 {
+        font-size: 3rem;
+    }
+
+    #homepage-title div {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #homepage-content img {
+        max-width: 80%;
+    }
+
+    #homepage-title h1 {
+        font-size: 2rem;
+    }
+
+    #homepage-title div {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-height: 650px) and (min-width: 767px) {
+    #homepage-content img {
+        max-width: 30%;
+    }
+
+    #homepage-title h1 {
+        font-size: 2rem;
+    }
+
+    #homepage-title div {
+        font-size: 1.2rem;
+    }
+}

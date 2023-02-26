@@ -9,3 +9,9 @@
         font-size: 0.8rem;
     }
 }
+
+@media only screen and (max-height: 650px) and (min-width: 767px) {
+    footer {
+        font-size: 0.8rem;
+    }
+}

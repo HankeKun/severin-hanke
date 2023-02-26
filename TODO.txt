@@ -1,7 +1,2 @@
-- Add css medias for Homepage
-- Adjust Media Header for Homepage
-
 - Galerie adjustment, to make more than one event
 - Add more Event Photos in the Galerie
-
-- Galerie Media Elemente anpassen

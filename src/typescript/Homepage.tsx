@@ -1,4 +1,5 @@
 import "../css/Homepage.css";
+import "../css/HomepageMedia.css";
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";

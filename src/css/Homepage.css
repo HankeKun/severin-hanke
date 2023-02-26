@@ -24,7 +24,7 @@
 #homepage-content img {
     margin: auto 0;
     border-radius: 50%;
-    max-width: max(360px, 50%);
+    max-width: 50%;
 }
 
 #homepage-title {
@@ -62,4 +62,10 @@
 
 #homepage-div footer a {
     color: #2f7ded;
+}
+
+#hamburger-menu #hamburger-menu-bar1,
+#hamburger-menu #hamburger-menu-bar2,
+#hamburger-menu #hamburger-menu-bar3 {
+    background-color: #ffffff;
 }
