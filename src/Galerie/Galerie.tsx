@@ -1,9 +1,8 @@
 import "./Galerie.css";
 import "./GalerieMedia.css";
-import React, {useCallback, useState} from "react";
+import {useNavigate} from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import ImageViewer from "react-simple-image-viewer";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 
 import BadKreuznach1Placeholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
@@ -44,18 +43,11 @@ const images: { src: string, alt: string, placeholder: string }[] = [
 ];
 
 function Galerie() {
-    const [currentImage, setCurrentImage] = useState(0);
-    const [isViewerOpen, setIsViewerOpen] = useState(false);
-
-    const openImageViewer = useCallback((index: React.SetStateAction<number>) => {
-        setCurrentImage(index);
-        setIsViewerOpen(true);
-    }, []);
-
-    const closeImageViewer = () => {
-        setCurrentImage(0);
-        setIsViewerOpen(false);
-    };
+    const navigate = useNavigate();
+    let openGalerie = (page: string) => {
+        console.log("Galerie");
+        navigate(page);
+    }
 
     return (
         <div id="galerie-div">
@@ -66,7 +58,7 @@ function Galerie() {
                     {images.map((image, index) => (
                         <LazyLoadImage
                             src={image.src}
-                            onClick={() => openImageViewer(index)}
+                            onClick={() => openGalerie("Bad-Kreuznach-2023")}
                             key={index}
                             alt={image.alt}
                             placeholderSrc={image.placeholder}
@@ -77,17 +69,6 @@ function Galerie() {
                 </div>
             </div>
             <Footer/>
-
-            {isViewerOpen && (
-                <ImageViewer
-                    src={images.map((image) => image.src)}
-                    currentIndex={currentImage}
-                    disableScroll={true}
-                    closeOnClickOutside={true}
-                    backgroundStyle={{backgroundColor: "rgba(0, 0, 0, 0.9)"}}
-                    onClose={closeImageViewer}
-                />
-            )}
         </div>
     );
 }

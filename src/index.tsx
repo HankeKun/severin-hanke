@@ -9,6 +9,7 @@ import Homepage from "./Homepage/Homepage";
 import AboutMe from "./AboutMe/AboutMe";
 import Links from "./Links/Links";
 import Galerie from "./Galerie/Galerie";
+import BadKreuznach2023 from "./Galerie/BadKreuznach2023/BadKreuznach2023";
 import SHCoding from "./SHCoding/SHCoding";
 import Impressum from "./Impressum/Impressum";
 
@@ -22,7 +23,9 @@ root.render(
               <Route index element={<Homepage/>}/>
               <Route path="/about-me" element={<AboutMe/>}/>
               <Route path="/links" element={<Links/>}/>
-              <Route path="/galerie" element={<Galerie/>}/>
+              <Route path="/galerie" element={<Galerie/>}>
+                  <Route path="bad-kreuznach-2023" element={<BadKreuznach2023/>}/>
+              </Route>
               <Route path="/sh-coding" element={<SHCoding/>}/>
               <Route path="/impressum" element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>

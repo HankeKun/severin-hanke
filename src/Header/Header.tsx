@@ -22,8 +22,8 @@ function Header() {
             <nav id="header-nav">
                 <a href="/">Startseite</a>
                 <a href="/about-me">Über mich</a>
-                <a href="/src/Links/Links">Links</a>
-                <a href="/src/Galerie/Galerie">Galerie</a>
+                <a href="/Links">Links</a>
+                <a href="/Galerie">Galerie</a>
                 <a href="/sh-coding">SH Coding</a>
             </nav>
         </header>
