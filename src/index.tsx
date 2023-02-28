@@ -5,11 +5,12 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./tests/reportWebVitals";
 
-import Homepage from "./typescript/Homepage";
-import AboutMe from "./typescript/AboutMe";
-import Links from "./typescript/Links";
-import Impressum from "./typescript/Impressum";
-import Galerie from "./typescript/Galerie";
+import Homepage from "./Homepage/Homepage";
+import AboutMe from "./AboutMe/AboutMe";
+import Links from "./Links/Links";
+import Galerie from "./Galerie/Galerie";
+import SHCoding from "./SHCoding/SHCoding";
+import Impressum from "./Impressum/Impressum";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ root.render(
               <Route path="/about-me" element={<AboutMe/>}/>
               <Route path="/links" element={<Links/>}/>
               <Route path="/galerie" element={<Galerie/>}/>
+              <Route path="/sh-coding" element={<SHCoding/>}/>
               <Route path="/impressum" element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>

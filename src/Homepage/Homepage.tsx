@@ -1,8 +1,8 @@
-import "../css/Homepage.css";
-import "../css/HomepageMedia.css";
+import "./Homepage.css";
+import "./HomepageMedia.css";
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 import MangaSeverin from "../images/MangaSeverin-512.png";
 import video from "../images/magic.mp4"

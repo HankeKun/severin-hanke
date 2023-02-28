@@ -1,8 +1,8 @@
-import "../css/Impressum.css";
-import "../css/ImpressumMedia.css";
+import "./Impressum.css";
+import "./ImpressumMedia.css";
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 function Impressum() {
     return (

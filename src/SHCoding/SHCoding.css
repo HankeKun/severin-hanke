@@ -1,0 +1,24 @@
+#shcoding-div {
+    background-color: royalblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#shcoding-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+#shcoding-content h1 {
+    color: midnightblue;
+    font-size: 4rem;
+    margin: 0 0 20px;
+}
+
+#shcoding-content div {
+    color: white;
+    font-size: 1.8rem;
+}

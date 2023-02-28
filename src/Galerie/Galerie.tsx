@@ -1,8 +1,8 @@
-import "../css/Galerie.css";
-import "../css/GalerieMedia.css";
+import "./Galerie.css";
+import "./GalerieMedia.css";
 import React, {useCallback, useState} from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import ImageViewer from "react-simple-image-viewer";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 

@@ -1,5 +1,5 @@
-import "../css/Header.css";
-import "../css/HeaderMedia.css";
+import "./Header.css";
+import "./HeaderMedia.css";
 import React from "react";
 
 function Header() {
@@ -22,8 +22,9 @@ function Header() {
             <nav id="header-nav">
                 <a href="/">Startseite</a>
                 <a href="/about-me">Über mich</a>
-                <a href="/links">Links</a>
-                <a href="/galerie">Galerie</a>
+                <a href="/src/Links/Links">Links</a>
+                <a href="/src/Galerie/Galerie">Galerie</a>
+                <a href="/sh-coding">SH Coding</a>
             </nav>
         </header>
     );
