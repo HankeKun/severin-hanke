@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOMClient from "react-dom/client";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {RouteNames} from "./constants/RouteNames";
 
 import "./index.css";
 import reportWebVitals from "./tests/reportWebVitals";
@@ -9,7 +10,7 @@ import Homepage from "./Homepage/Homepage";
 import AboutMe from "./AboutMe/AboutMe";
 import Links from "./Links/Links";
 import Galerie from "./Galerie/Galerie";
-import BadKreuznach2023 from "./Galerie/BadKreuznach2023/BadKreuznach2023";
+import BadKreuznach from "./Galerie/BadKreuznach2023/BadKreuznach";
 import SHCoding from "./SHCoding/SHCoding";
 import Impressum from "./Impressum/Impressum";
 
@@ -21,13 +22,12 @@ root.render(
       <BrowserRouter>
           <Routes>
               <Route index element={<Homepage/>}/>
-              <Route path="/about-me" element={<AboutMe/>}/>
-              <Route path="/links" element={<Links/>}/>
-              <Route path="/galerie" element={<Galerie/>}>
-                  <Route path="bad-kreuznach-2023" element={<BadKreuznach2023/>}/>
-              </Route>
-              <Route path="/sh-coding" element={<SHCoding/>}/>
-              <Route path="/impressum" element={<Impressum/>}/>
+              <Route path={RouteNames.aboutMe} element={<AboutMe/>}/>
+              <Route path={RouteNames.links} element={<Links/>}/>
+              <Route path={RouteNames.galerie} element={<Galerie/>}/>
+              <Route path={RouteNames.galerieBadKreuznach} element={<BadKreuznach/>}/>
+              <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
+              <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>
       </BrowserRouter>

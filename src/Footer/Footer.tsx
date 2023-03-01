@@ -1,6 +1,7 @@
 import "./Footer.css";
 import "./FooterMedia.css";
 import React from "react";
+import {RouteNames} from "../constants/RouteNames";
 import {faReact, faFontAwesome} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -8,7 +9,7 @@ function Footer() {
     return (
         <footer>
             <div id="footer-content">
-                <a id="footer-impressum" href="/src/Impressum/Impressum">Impressum</a>
+                <a id="footer-impressum" href={RouteNames.impressum}>Impressum</a>
 
                 <span>Webseite erstellt von Severin Hanke</span>
 

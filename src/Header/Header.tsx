@@ -1,6 +1,7 @@
 import "./Header.css";
 import "./HeaderMedia.css";
 import React from "react";
+import {RouteNames} from "../constants/RouteNames";
 
 function Header() {
     function toggleBar() {
@@ -21,10 +22,10 @@ function Header() {
             </div>
             <nav id="header-nav">
                 <a href="/">Startseite</a>
-                <a href="/about-me">Über mich</a>
-                <a href="/Links">Links</a>
-                <a href="/Galerie">Galerie</a>
-                <a href="/sh-coding">SH Coding</a>
+                <a href={RouteNames.aboutMe}>Über mich</a>
+                <a href={RouteNames.links}>Links</a>
+                <a href={RouteNames.galerie}>Galerie</a>
+                <a href={RouteNames.shCoding}>SH Coding</a>
             </nav>
         </header>
     );
