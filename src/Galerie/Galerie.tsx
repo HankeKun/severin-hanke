@@ -7,10 +7,11 @@ import {RouteNames} from "../constants/RouteNames";
 import {useNavigate} from "react-router-dom";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 
-import BadKreuznachPlaceholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-placeholder.jpg";
-import BadKreuznach from "../images/2023_Bad-Kreuznach/Bad-Kreuznach.JPG";
+import BadKreuznachPlaceholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
+import BadKreuznach from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1.JPG";
+import {ImageInfos} from "../models/ImageInfos";
 
-const images: { src: string, alt: string, placeholder: string }[] = [
+const images: ImageInfos[] = [
     {src: BadKreuznach, alt: "Bad Kreuznach", placeholder: BadKreuznachPlaceholder},
 ];
 
@@ -26,7 +27,7 @@ function Galerie() {
             <div id="galerie-content">
                 <h1>Galerie</h1>
                 <div id="galerie-images">
-                    {images.map((image, index) => (
+                    {images.map((image: ImageInfos, index: number) => (
                         <LazyLoadImage
                             src={image.src}
                             onClick={() => openGalerie(RouteNames.galerieBadKreuznach)}

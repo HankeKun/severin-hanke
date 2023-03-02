@@ -1,0 +1,27 @@
+@media only screen and (max-width: 1600px) {
+    #galerie-item-images span {
+        width: 22vw;
+        height: 22vw;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    #galerie-item-images span {
+        width: 28vw;
+        height: 28vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #galerie-item-images span {
+        width: 44vw;
+        height: 44vw;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    #galerie-item-images span {
+        width: 80vw;
+        height: 80vw;
+    }
+}

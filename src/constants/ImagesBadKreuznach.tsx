@@ -1,3 +1,5 @@
+import {ImageInfos} from "../models/ImageInfos";
+
 import BadKreuznach1Placeholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
 import BadKreuznach2Placeholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-2-placeholder.jpg";
 import BadKreuznach3Placeholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-3-placeholder.jpg";
@@ -21,7 +23,7 @@ import BadKreuznach9 from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-9.JPG";
 import BadKreuznach10 from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-10.JPG";
 import BadKreuznach11 from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-11.JPG";
 
-export const imagesBadKreuznach: { src: string, alt: string, placeholder: string }[] = [
+export const imagesBadKreuznach: ImageInfos[] = [
     {src: BadKreuznach1, alt: "Bad Kreuznach 1", placeholder: BadKreuznach1Placeholder},
     {src: BadKreuznach2, alt: "Bad Kreuznach 2", placeholder: BadKreuznach2Placeholder},
     {src: BadKreuznach3, alt: "Bad Kreuznach 3", placeholder: BadKreuznach3Placeholder},

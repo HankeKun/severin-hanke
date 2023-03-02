@@ -10,9 +10,10 @@ import Homepage from "./Homepage/Homepage";
 import AboutMe from "./AboutMe/AboutMe";
 import Links from "./Links/Links";
 import Galerie from "./Galerie/Galerie";
-import BadKreuznach from "./Galerie/BadKreuznach2023/BadKreuznach";
 import SHCoding from "./SHCoding/SHCoding";
 import Impressum from "./Impressum/Impressum";
+import GalerieItem from "./Galerie/GalerieItem/GalerieItem";
+import {imagesBadKreuznach} from "./constants/ImagesBadKreuznach";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -25,7 +26,7 @@ root.render(
               <Route path={RouteNames.aboutMe} element={<AboutMe/>}/>
               <Route path={RouteNames.links} element={<Links/>}/>
               <Route path={RouteNames.galerie} element={<Galerie/>}/>
-              <Route path={RouteNames.galerieBadKreuznach} element={<BadKreuznach/>}/>
+              <Route path={RouteNames.galerieBadKreuznach} element={GalerieItem(imagesBadKreuznach,"Bad Kreuznach")}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
