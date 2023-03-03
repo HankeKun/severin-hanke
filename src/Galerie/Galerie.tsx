@@ -12,7 +12,7 @@ import BadKreuznach from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1.JPG";
 import {ImageInfos} from "../models/ImageInfos";
 
 const images: ImageInfos[] = [
-    {src: BadKreuznach, alt: "Bad Kreuznach", placeholder: BadKreuznachPlaceholder},
+    {src: BadKreuznach, alt: "Bad Kreuznach", placeholder: BadKreuznachPlaceholder, link: RouteNames.galerieBadKreuznach},
 ];
 
 function Galerie() {
@@ -28,15 +28,18 @@ function Galerie() {
                 <h1>Galerie</h1>
                 <div id="galerie-images">
                     {images.map((image: ImageInfos, index: number) => (
-                        <LazyLoadImage
-                            src={image.src}
-                            onClick={() => openGalerie(RouteNames.galerieBadKreuznach)}
-                            key={index}
-                            alt={image.alt}
-                            placeholderSrc={image.placeholder}
-                            effect="blur"
-                            loading="lazy"
-                        />
+                        <div>
+                            {image.alt}
+                            <LazyLoadImage
+                                src={image.src}
+                                onClick={() => openGalerie(image.link ?? RouteNames.galerie)}
+                                key={index}
+                                alt={image.alt}
+                                placeholderSrc={image.placeholder}
+                                effect="blur"
+                                loading="lazy"
+                            />
+                        </div>
                     ))}
                 </div>
             </div>

@@ -27,13 +27,15 @@
     margin: 5px;
     width: 18vw;
     height: 18vw;
+    background: black;
 }
 
-#galerie-images img {
+#galerie-images span img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     cursor: pointer;
+    opacity: 35%;
 }
 
 #ReactSimpleImageViewer span {
