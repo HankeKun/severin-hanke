@@ -7,7 +7,7 @@ import ImageViewer from "react-simple-image-viewer";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import {ImageInfos} from "../../models/ImageInfos";
 
-function GalerieItem(images: ImageInfos[], title: string) {
+function GalerieItem(props: {images: ImageInfos[], title: string}) {
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
 
@@ -25,9 +25,9 @@ function GalerieItem(images: ImageInfos[], title: string) {
         <div id="galerie-item-div">
             <Header/>
             <div id="galerie-item-content">
-                <h1>Galerie - {title}</h1>
+                <h1>Galerie - {props.title}</h1>
                 <div id="galerie-item-images">
-                    {images.map((image: ImageInfos, index: number) => (
+                    {props.images.map((image: ImageInfos, index: number) => (
                         <LazyLoadImage
                             src={image.src}
                             onClick={() => openImageViewer(index)}
@@ -44,7 +44,7 @@ function GalerieItem(images: ImageInfos[], title: string) {
 
             {isViewerOpen && (
                 <ImageViewer
-                    src={images.map((image: ImageInfos) => image.src)}
+                    src={props.images.map((image: ImageInfos) => image.src)}
                     currentIndex={currentImage}
                     disableScroll={true}
                     closeOnClickOutside={true}

@@ -26,7 +26,7 @@ root.render(
               <Route path={RouteNames.aboutMe} element={<AboutMe/>}/>
               <Route path={RouteNames.links} element={<Links/>}/>
               <Route path={RouteNames.galerie} element={<Galerie/>}/>
-              <Route path={RouteNames.galerieBadKreuznach} element={GalerieItem(imagesBadKreuznach,"Bad Kreuznach")}/>
+              <Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
