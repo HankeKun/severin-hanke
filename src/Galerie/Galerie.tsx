@@ -28,17 +28,18 @@ function Galerie() {
                 <h1>Galerie</h1>
                 <div id="galerie-images">
                     {images.map((image: ImageInfos, index: number) => (
-                        <div>
-                            {image.alt}
+                        <div id="galerie-image-wrapper" onClick={() => openGalerie(image.link ?? RouteNames.galerie)}>
                             <LazyLoadImage
                                 src={image.src}
-                                onClick={() => openGalerie(image.link ?? RouteNames.galerie)}
                                 key={index}
                                 alt={image.alt}
                                 placeholderSrc={image.placeholder}
                                 effect="blur"
                                 loading="lazy"
                             />
+                            <div>
+                                {image.alt}
+                            </div>
                         </div>
                     ))}
                 </div>
