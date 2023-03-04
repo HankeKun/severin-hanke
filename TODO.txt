@@ -1,2 +1,4 @@
-- Galerie adjustment, to make more than one event
 - Add more Event Photos in the Galerie
+
+- Galerie font-size
+- Galerie img sizes
