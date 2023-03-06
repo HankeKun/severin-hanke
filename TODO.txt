@@ -1,4 +1,1 @@
 - Add more Event Photos in the Galerie
-
-- Galerie font-size
-- Galerie img sizes

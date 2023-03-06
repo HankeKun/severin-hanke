@@ -7,11 +7,14 @@ import {RouteNames} from "../constants/RouteNames";
 import {useNavigate} from "react-router-dom";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 
-import BadKreuznachPlaceholder from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
-import BadKreuznach from "../images/2023_Bad-Kreuznach/Bad-Kreuznach-1.JPG";
 import {ImageInfos} from "../models/ImageInfos";
+import BadKreuznachPlaceholder from "../images/Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
+import BadKreuznach from "../images/Bad-Kreuznach/Bad-Kreuznach-1.JPG";
+import BernkastelKuesPlaceholder from "../images/Bernkastel-Kues/Bernkastel-Kues-1-placeholder.jpg";
+import BernkastelKues from "../images/Bernkastel-Kues/Bernkastel-Kues-1.JPG";
 
 const images: ImageInfos[] = [
+    {src: BernkastelKues, alt: "Bernkastel-Kues", placeholder: BernkastelKuesPlaceholder, link: RouteNames.galerieBernkastelKues},
     {src: BadKreuznach, alt: "Bad Kreuznach", placeholder: BadKreuznachPlaceholder, link: RouteNames.galerieBadKreuznach},
 ];
 

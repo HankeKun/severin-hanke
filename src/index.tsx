@@ -14,6 +14,7 @@ import SHCoding from "./SHCoding/SHCoding";
 import Impressum from "./Impressum/Impressum";
 import GalerieItem from "./Galerie/GalerieItem/GalerieItem";
 import {imagesBadKreuznach} from "./constants/ImagesBadKreuznach";
+import {imagesBernkastelKues} from "./constants/ImagesBernkastelKues";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -27,6 +28,7 @@ root.render(
               <Route path={RouteNames.links} element={<Links/>}/>
               <Route path={RouteNames.galerie} element={<Galerie/>}/>
               <Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>
+              <Route path={RouteNames.galerieBernkastelKues} element={<GalerieItem images={imagesBernkastelKues} title="Bernkastel-Kues"/>}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
