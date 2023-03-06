@@ -8,10 +8,10 @@ import {useNavigate} from "react-router-dom";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 
 import {ImageInfos} from "../models/ImageInfos";
-import BadKreuznachPlaceholder from "../images/Bad-Kreuznach/Bad-Kreuznach-1-placeholder.jpg";
-import BadKreuznach from "../images/Bad-Kreuznach/Bad-Kreuznach-1.JPG";
-import BernkastelKuesPlaceholder from "../images/Bernkastel-Kues/Bernkastel-Kues-1-placeholder.jpg";
-import BernkastelKues from "../images/Bernkastel-Kues/Bernkastel-Kues-1.JPG";
+import BernkastelKuesPlaceholder from "../images/Bernkastel-Kues/placeholder/Bernkastel-Kues-placeholder1-6.jpg";
+import BernkastelKues from "../images/Bernkastel-Kues/Bernkastel-Kues1-6.JPG";
+import BadKreuznachPlaceholder from "../images/Bad-Kreuznach/placeholder/Bad-Kreuznach-placeholder1-7.jpg";
+import BadKreuznach from "../images/Bad-Kreuznach/Bad-Kreuznach1-7.JPG";
 
 const images: ImageInfos[] = [
     {src: BernkastelKues, alt: "Bernkastel-Kues", placeholder: BernkastelKuesPlaceholder, link: RouteNames.galerieBernkastelKues},
