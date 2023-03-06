@@ -5,5 +5,6 @@ export class RouteNames {
     static galerieBadKreuznach: string = RouteNames.galerie + "/Bad-Kreuznach";
     static galerieBernkastelKues: string = RouteNames.galerie + "/Bernkastel-Kues";
     static shCoding: string = "/SH-Coding";
+    static shCodingCountdowns: string = RouteNames.shCoding + "/Countdowns";
     static impressum: string = "/Impressum";
 }

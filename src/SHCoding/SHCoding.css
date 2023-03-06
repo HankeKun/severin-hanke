@@ -9,7 +9,6 @@
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    flex: 1;
 }
 
 #shcoding-content h1 {
@@ -21,4 +20,31 @@
 #shcoding-content div {
     color: white;
     font-size: 1.8rem;
+    margin: 0 0 20px;
+}
+
+#shcoding-apps-content {
+    flex: 1;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+
+#shcoding-apps-content img {
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+    border-radius: 15%;
+    width: min(100%, 256px);
+    cursor: pointer;
+}
+
+#shcoding-apps-content div {
+    color: white;
+    margin: 0 0 10px;
+}
+
+#shcoding-apps-content a {
+    color: white;
 }

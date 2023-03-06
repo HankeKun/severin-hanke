@@ -30,6 +30,7 @@ root.render(
               <Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>
               <Route path={RouteNames.galerieBernkastelKues} element={<GalerieItem images={imagesBernkastelKues} title="Bernkastel-Kues"/>}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
+              <Route path={RouteNames.shCodingCountdowns} element={<SHCoding/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>
