@@ -1,0 +1,28 @@
+#app-div {
+    background-color: royalblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#app-content {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1;
+    color: white;
+}
+
+#app-content h1 {
+    text-align: center;
+    color: midnightblue;
+    font-size: 4rem;
+    margin: 0 0 20px;
+}
+
+#app-content strong {
+    color: midnightblue;
+}
+
+#app-content a {
+    color: white;
+}

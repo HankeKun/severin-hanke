@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1199px) {
+    #app-content h1 {
+        font-size: 3.8rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #app-content h1 {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #app-content h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    #app-content h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #app-content h1 {
+        font-size: 2.6rem;
+    }
+}

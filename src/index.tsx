@@ -10,11 +10,13 @@ import Homepage from "./Homepage/Homepage";
 import AboutMe from "./AboutMe/AboutMe";
 import Links from "./Links/Links";
 import Galerie from "./Galerie/Galerie";
-import SHCoding from "./SHCoding/SHCoding";
-import Impressum from "./Impressum/Impressum";
 import GalerieItem from "./Galerie/GalerieItem/GalerieItem";
+import SHCoding from "./SHCoding/SHCoding";
+import App from "./SHCoding/App/App";
+import Impressum from "./Impressum/Impressum";
 import {imagesBadKreuznach} from "./constants/ImagesBadKreuznach";
 import {imagesBernkastelKues} from "./constants/ImagesBernkastelKues";
+import {countdownsAppHtml} from "./constants/CountdownsApp";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -30,7 +32,7 @@ root.render(
               <Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>
               <Route path={RouteNames.galerieBernkastelKues} element={<GalerieItem images={imagesBernkastelKues} title="Bernkastel-Kues"/>}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
-              <Route path={RouteNames.shCodingCountdowns} element={<SHCoding/>}/>
+              <Route path={RouteNames.shCodingCountdowns} element={<App title="Countdowns" html={countdownsAppHtml}/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>

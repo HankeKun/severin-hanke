@@ -3,6 +3,7 @@ import "./SHCodingMedia.css";
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import {RouteNames} from "../constants/RouteNames";
 
 import CountdownsIcon from "../images/Apps/Countdowns-Icon.png";
 
@@ -23,8 +24,7 @@ function SHCoding() {
             <div id="shcoding-apps-content">
                 <img src={CountdownsIcon} alt="Countdowns Icon" onClick={() => openApp("https://play.google.com/store/apps/details?id=de.shcoding.countdown")}/>
                 <div>Countdowns App</div>
-                <a href="https://countdowns.privacy.severin-hanke.de/" title="Privacy Policy" target="_blank"
-                   rel="noopener noreferrer">
+                <a href={RouteNames.shCodingCountdowns} title="Privacy Policy">
                     <span>Privacy Policy</span>
                 </a>
             </div>
