@@ -7,9 +7,18 @@ import ImageViewer from "react-simple-image-viewer";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import {ImageInfos} from "../../models/ImageInfos";
 
-function GalerieItem(props: {images: ImageInfos[], title: string}) {
+function GalerieItem(props: { images: ImageInfos[], title: string }) {
+    const [onHover, setOnHover] = useState(true);
     const [currentImage, setCurrentImage] = useState(0);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
+
+    const onMouseEnter = useCallback(() => {
+        setOnHover(true);
+    }, []);
+
+    const onMouseLeave = useCallback(() => {
+        setOnHover(false);
+    }, []);
 
     const openImageViewer = useCallback((index: React.SetStateAction<number>) => {
         setCurrentImage(index);
@@ -28,15 +37,26 @@ function GalerieItem(props: {images: ImageInfos[], title: string}) {
                 <h1>Galerie - {props.title}</h1>
                 <div id="galerie-item-images">
                     {props.images.map((image: ImageInfos, index: number) => (
-                        <LazyLoadImage
-                            src={image.src}
-                            onClick={() => openImageViewer(index)}
-                            key={index}
-                            alt={image.alt}
-                            placeholderSrc={image.placeholder}
-                            effect="blur"
-                            loading="lazy"
-                        />
+                        <div id="galerie-item-image-wrapper"
+                             key={index}
+                             onClick={() => openImageViewer(index)}
+                        >
+                            <LazyLoadImage
+                                src={image.src}
+                                key={index}
+                                alt={image.alt}
+                                placeholderSrc={image.placeholder}
+                                effect="blur"
+                                loading="lazy"
+                                onMouseEnter={() => onMouseEnter()}
+                                onMouseLeave={() => onMouseLeave()}
+                            />
+                            {onHover && (
+                                <div>
+                                    Hallo
+                                </div>
+                            )}
+                        </div>
                     ))}
                 </div>
             </div>
