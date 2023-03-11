@@ -32,6 +32,10 @@
         width: 42vw;
         height: 42vw;
     }
+
+    #galerie-item-image-wrapper div {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 319px) {
@@ -42,5 +46,9 @@
     #galerie-item-images span {
         width: 80vw;
         height: 80vw;
+    }
+
+    #galerie-item-image-wrapper div {
+        font-size: 1rem;
     }
 }

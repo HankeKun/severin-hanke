@@ -9,16 +9,19 @@ import {ImageInfos} from "../../models/ImageInfos";
 
 function GalerieItem(props: { images: ImageInfos[], title: string }) {
     const [onHover, setOnHover] = useState(true);
-    const [currentImage, setCurrentImage] = useState(0);
+    const [onHoverIndex, setOnHoverIndex] = useState(-1);
+    const [currentImage, setCurrentImage] = useState(-1);
     const [isViewerOpen, setIsViewerOpen] = useState(false);
 
-    const onMouseEnter = useCallback(() => {
+    const onMouseEnter = (index: React.SetStateAction<number>) => {
+        setOnHoverIndex(index);
         setOnHover(true);
-    }, []);
+    };
 
-    const onMouseLeave = useCallback(() => {
+    const onMouseLeave = () => {
+        setOnHoverIndex(-1);
         setOnHover(false);
-    }, []);
+    };
 
     const openImageViewer = useCallback((index: React.SetStateAction<number>) => {
         setCurrentImage(index);
@@ -26,7 +29,7 @@ function GalerieItem(props: { images: ImageInfos[], title: string }) {
     }, []);
 
     const closeImageViewer = () => {
-        setCurrentImage(0);
+        setCurrentImage(-1);
         setIsViewerOpen(false);
     };
 
@@ -40,6 +43,8 @@ function GalerieItem(props: { images: ImageInfos[], title: string }) {
                         <div id="galerie-item-image-wrapper"
                              key={index}
                              onClick={() => openImageViewer(index)}
+                             onMouseEnter={() => onMouseEnter(index)}
+                             onMouseLeave={() => onMouseLeave()}
                         >
                             <LazyLoadImage
                                 src={image.src}
@@ -48,12 +53,10 @@ function GalerieItem(props: { images: ImageInfos[], title: string }) {
                                 placeholderSrc={image.placeholder}
                                 effect="blur"
                                 loading="lazy"
-                                onMouseEnter={() => onMouseEnter()}
-                                onMouseLeave={() => onMouseLeave()}
                             />
-                            {onHover && (
+                            {onHover && index === onHoverIndex && (
                                 <div>
-                                    Hallo
+                                    {image.aufnahmeDatum}
                                 </div>
                             )}
                         </div>

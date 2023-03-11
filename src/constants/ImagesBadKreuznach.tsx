@@ -24,15 +24,15 @@ import BadKreuznach1_10 from "../images/Bad-Kreuznach/Bad-Kreuznach1-10.JPG";
 import BadKreuznach1_11 from "../images/Bad-Kreuznach/Bad-Kreuznach1-11.JPG";
 
 export const imagesBadKreuznach: ImageInfos[] = [
-    {src: BadKreuznach1_1, alt: "Bad Kreuznach 1", placeholder: BadKreuznachPlaceholder1_1},
-    {src: BadKreuznach1_2, alt: "Bad Kreuznach 2", placeholder: BadKreuznachPlaceholder1_2},
-    {src: BadKreuznach1_3, alt: "Bad Kreuznach 3", placeholder: BadKreuznachPlaceholder1_3},
-    {src: BadKreuznach1_4, alt: "Bad Kreuznach 4", placeholder: BadKreuznachPlaceholder1_4},
-    {src: BadKreuznach1_5, alt: "Bad Kreuznach 5", placeholder: BadKreuznachPlaceholder1_5},
-    {src: BadKreuznach1_6, alt: "Bad Kreuznach 6", placeholder: BadKreuznachPlaceholder1_6},
-    {src: BadKreuznach1_7, alt: "Bad Kreuznach 7", placeholder: BadKreuznachPlaceholder1_7},
-    {src: BadKreuznach1_8, alt: "Bad Kreuznach 8", placeholder: BadKreuznachPlaceholder1_8},
-    {src: BadKreuznach1_9, alt: "Bad Kreuznach 9", placeholder: BadKreuznachPlaceholder1_9},
-    {src: BadKreuznach1_10, alt: "Bad Kreuznach 10", placeholder: BadKreuznachPlaceholder1_10},
-    {src: BadKreuznach1_11, alt: "Bad Kreuznach 11", placeholder: BadKreuznachPlaceholder1_11},
+    {src: BadKreuznach1_1, alt: "Bad Kreuznach 1", placeholder: BadKreuznachPlaceholder1_1, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_2, alt: "Bad Kreuznach 2", placeholder: BadKreuznachPlaceholder1_2, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_3, alt: "Bad Kreuznach 3", placeholder: BadKreuznachPlaceholder1_3, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_4, alt: "Bad Kreuznach 4", placeholder: BadKreuznachPlaceholder1_4, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_5, alt: "Bad Kreuznach 5", placeholder: BadKreuznachPlaceholder1_5, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_6, alt: "Bad Kreuznach 6", placeholder: BadKreuznachPlaceholder1_6, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_7, alt: "Bad Kreuznach 7", placeholder: BadKreuznachPlaceholder1_7, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_8, alt: "Bad Kreuznach 8", placeholder: BadKreuznachPlaceholder1_8, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_9, alt: "Bad Kreuznach 9", placeholder: BadKreuznachPlaceholder1_9, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_10, alt: "Bad Kreuznach 10", placeholder: BadKreuznachPlaceholder1_10, aufnahmeDatum: "12. Februar 2023"},
+    {src: BadKreuznach1_11, alt: "Bad Kreuznach 11", placeholder: BadKreuznachPlaceholder1_11, aufnahmeDatum: "12. Februar 2023"},
 ];
