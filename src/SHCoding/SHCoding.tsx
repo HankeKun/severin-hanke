@@ -6,12 +6,9 @@ import Footer from "../Footer/Footer";
 import {RouteNames} from "../constants/RouteNames";
 
 import CountdownsIcon from "../images/Apps/Countdowns-Icon.png";
+import PokeManagerIcon from "../images/Apps/Poke-Manager-Icon.png";
 
 function SHCoding() {
-    let openApp = (page: string) => {
-        window.open(page, "_blank", "noopener noreferrer");
-    }
-
     return (
         <div id="shcoding-div">
             <Header />
@@ -22,11 +19,24 @@ function SHCoding() {
                 </div>
             </div>
             <div id="shcoding-apps-content">
-                <img src={CountdownsIcon} alt="Countdowns Icon" onClick={() => openApp("https://play.google.com/store/apps/details?id=de.shcoding.countdown")}/>
-                <div>Countdowns App</div>
-                <a href={RouteNames.shCodingCountdowns} title="Privacy Policy">
-                    <span>Privacy Policy</span>
-                </a>
+                <div>
+                    <a className="upper-a" href="https://www.poke-base.com" title="Poké-Manager Play Store" target="_blank" rel="noopener noreferrer">
+                        <img src={PokeManagerIcon} alt="Poké-Manager Icon"/>
+                        <span>Poké-Manager App</span>
+                    </a>
+                    <a href={RouteNames.shCodingPokeManager} title="Privacy Policy">
+                        <span>Privacy Policy</span>
+                    </a>
+                </div>
+                <div>
+                    <a className="upper-a" href="https://play.google.com/store/apps/details?id=de.shcoding.countdown" title="Countdowns Play Store" target="_blank" rel="noopener noreferrer">
+                        <img src={CountdownsIcon} alt="Countdowns Icon"/>
+                        <span>Countdowns App</span>
+                    </a>
+                    <a href={RouteNames.shCodingCountdowns} title="Privacy Policy">
+                        <span>Privacy Policy</span>
+                    </a>
+                </div>
             </div>
             <Footer />
         </div>

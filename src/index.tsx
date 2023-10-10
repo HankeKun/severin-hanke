@@ -17,6 +17,7 @@ import Impressum from "./Impressum/Impressum";
 import {imagesBadKreuznach} from "./constants/ImagesBadKreuznach";
 import {imagesBernkastelKues} from "./constants/ImagesBernkastelKues";
 import {countdownsAppHtml} from "./constants/CountdownsApp";
+import {pokeManagerAppHtml} from "./constants/PokeManagerApp";
 
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
@@ -32,6 +33,7 @@ root.render(
               <Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>
               <Route path={RouteNames.galerieBernkastelKues} element={<GalerieItem images={imagesBernkastelKues} title="Bernkastel-Kues"/>}/>
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
+              <Route path={RouteNames.shCodingPokeManager} element={<App title="Poké-Manager" html={pokeManagerAppHtml}/>}/>
               <Route path={RouteNames.shCodingCountdowns} element={<App title="Countdowns" html={countdownsAppHtml}/>}/>
               <Route path={RouteNames.impressum} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>

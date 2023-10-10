@@ -24,27 +24,37 @@
 }
 
 #shcoding-apps-content {
+    display: flex;
     flex: 1;
     text-align: center;
-    width: 50%;
-    margin: 0 auto;
     font-size: 1.8rem;
-}
-
-#shcoding-apps-content img {
-    display: block;
-    text-align: center;
-    margin: 0 auto 10px;
-    border-radius: 15%;
-    width: min(100%, 256px);
-    cursor: pointer;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #shcoding-apps-content div {
-    color: white;
-    margin: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 20px;
 }
 
 #shcoding-apps-content a {
     color: white;
+}
+
+.upper-a {
+    margin: 0 0 10px;
+    text-decoration: none;
+}
+
+#shcoding-apps-content a span {
+    text-decoration: none;
+}
+
+#shcoding-apps-content div a img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 15%;
+    max-width: 100%;
+    height: auto;
 }
