@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9af8bc26.css",
-    "main.js": "/static/js/main.8c312572.js",
-    "static/js/496.f0664f48.chunk.js": "/static/js/496.f0664f48.chunk.js",
+    "main.css": "/static/css/main.681fd76f.css",
+    "main.js": "/static/js/main.48c3b2df.js",
+    "static/js/496.6e9fad36.chunk.js": "/static/js/496.6e9fad36.chunk.js",
     "static/media/magic.mp4": "/static/media/magic.5e5eccae4495403238bf.mp4",
     "static/media/Bernkastel-Kues1-2.JPG": "/static/media/Bernkastel-Kues1-2.1c91186b0afd17d7ed73.JPG",
     "static/media/Bad-Kreuznach1-5.JPG": "/static/media/Bad-Kreuznach1-5.71ad0932ec36c875b92b.JPG",
@@ -56,12 +56,12 @@
     "static/media/Poke-Manager-Icon.png": "/static/media/Poke-Manager-Icon.fdf3476f5439bb009cf2.png",
     "static/media/Pokeball.png": "/static/media/Pokeball.2171ba033ffe64102d49.png",
     "index.html": "/index.html",
-    "main.9af8bc26.css.map": "/static/css/main.9af8bc26.css.map",
-    "main.8c312572.js.map": "/static/js/main.8c312572.js.map",
-    "496.f0664f48.chunk.js.map": "/static/js/496.f0664f48.chunk.js.map"
+    "main.681fd76f.css.map": "/static/css/main.681fd76f.css.map",
+    "main.48c3b2df.js.map": "/static/js/main.48c3b2df.js.map",
+    "496.6e9fad36.chunk.js.map": "/static/js/496.6e9fad36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af8bc26.css",
-    "static/js/main.8c312572.js"
+    "static/css/main.681fd76f.css",
+    "static/js/main.48c3b2df.js"
   ]
 }
