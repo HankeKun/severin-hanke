@@ -8,12 +8,15 @@ import {useNavigate} from "react-router-dom";
 import {LazyLoadImage} from "react-lazy-load-image-component";
 
 import {ImageInfos} from "../models/ImageInfos";
+import WaldalgesheimPlaceholder from "../images/Waldalgesheim/placeholder/Waldalgesheim-placeholder1_1.jpg";
+import Waldalgesheim from "../images/Waldalgesheim/Waldalgesheim1_1.png";
 import BernkastelKuesPlaceholder from "../images/Bernkastel-Kues/placeholder/Bernkastel-Kues-placeholder1-6.jpg";
 import BernkastelKues from "../images/Bernkastel-Kues/Bernkastel-Kues1-6.JPG";
 import BadKreuznachPlaceholder from "../images/Bad-Kreuznach/placeholder/Bad-Kreuznach-placeholder1-7.jpg";
 import BadKreuznach from "../images/Bad-Kreuznach/Bad-Kreuznach1-7.JPG";
 
 const images: ImageInfos[] = [
+    {src: Waldalgesheim, alt: "Waldalgesheim", placeholder: WaldalgesheimPlaceholder, link: RouteNames.galerieWaldalgesheim},
     {src: BernkastelKues, alt: "Bernkastel-Kues", placeholder: BernkastelKuesPlaceholder, link: RouteNames.galerieBernkastelKues},
     {src: BadKreuznach, alt: "Bad Kreuznach", placeholder: BadKreuznachPlaceholder, link: RouteNames.galerieBadKreuznach},
 ];

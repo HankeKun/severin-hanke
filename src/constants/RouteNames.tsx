@@ -4,6 +4,7 @@ export class RouteNames {
     static galerie: string = "/Galerie";
     static galerieBadKreuznach: string = RouteNames.galerie + "/Bad-Kreuznach";
     static galerieBernkastelKues: string = RouteNames.galerie + "/Bernkastel-Kues";
+    static galerieWaldalgesheim: string = RouteNames.galerie + "/Waldalgesheim";
     static shCoding: string = "/SH-Coding";
     static shCodingPokeManager: string = RouteNames.shCoding + "/Poke-Manager";
     static shCodingCountdowns: string = RouteNames.shCoding + "/Countdowns";

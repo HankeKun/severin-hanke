@@ -22,7 +22,7 @@
 }
 
 #homepage-content img {
-    margin: auto 0;
+    margin: auto 10px;
     border-radius: 50%;
     max-width: 50%;
 }
@@ -30,7 +30,7 @@
 #homepage-title {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 25px;
-    margin: auto 10px auto 0;
+    margin: auto 10px auto 10px;
     padding-bottom: 16px;
     padding-left: 16px;
     padding-right: 16px;
