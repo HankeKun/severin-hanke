@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.11693018.css",
-    "main.js": "/static/js/main.c40656d4.js",
+    "main.css": "/static/css/main.14127263.css",
+    "main.js": "/static/js/main.79b618d1.js",
     "static/js/496.6e9fad36.chunk.js": "/static/js/496.6e9fad36.chunk.js",
     "static/media/magic.mp4": "/static/media/magic.5e5eccae4495403238bf.mp4",
     "static/media/Waldalgesheim1_1.png": "/static/media/Waldalgesheim1_1.19b171ac48b9cfdc3c09.png",
@@ -62,12 +62,12 @@
     "static/media/Poke-Manager-Icon.png": "/static/media/Poke-Manager-Icon.fdf3476f5439bb009cf2.png",
     "static/media/Pokeball.png": "/static/media/Pokeball.2171ba033ffe64102d49.png",
     "index.html": "/index.html",
-    "main.11693018.css.map": "/static/css/main.11693018.css.map",
-    "main.c40656d4.js.map": "/static/js/main.c40656d4.js.map",
+    "main.14127263.css.map": "/static/css/main.14127263.css.map",
+    "main.79b618d1.js.map": "/static/js/main.79b618d1.js.map",
     "496.6e9fad36.chunk.js.map": "/static/js/496.6e9fad36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11693018.css",
-    "static/js/main.c40656d4.js"
+    "static/css/main.14127263.css",
+    "static/js/main.79b618d1.js"
   ]
 }
