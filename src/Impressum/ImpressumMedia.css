@@ -7,7 +7,11 @@
         font-size: 3.8rem;
     }
 
-    #impressum-content div {
+    #impressum-content h2 {
+        font-size: 1.9rem;
+    }
+
+    #impressum-content div, #impressum-content a {
         font-size: 1.6rem;
     }
 }
@@ -20,6 +24,10 @@
     #impressum-content h1 {
         font-size: 3.6rem;
     }
+
+    #impressum-content h2 {
+        font-size: 1.8rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -31,7 +39,11 @@
         font-size: 3.2rem;
     }
 
-    #impressum-content div {
+    #impressum-content h2 {
+        font-size: 1.6rem;
+    }
+
+    #impressum-content div, #impressum-content a {
         font-size: 1.6rem;
     }
 }
@@ -41,7 +53,11 @@
         font-size: 3rem;
     }
 
-    #impressum-content div {
+    #impressum-content h2 {
+        font-size: 1.5rem;
+    }
+
+    #impressum-content div, #impressum-content a {
         font-size: 1.4rem;
     }
 }
@@ -51,7 +67,11 @@
         font-size: 2.6rem;
     }
 
-    #impressum-content div {
+    #impressum-content h2 {
+        font-size: 1.3rem;
+    }
+
+    #impressum-content div, #impressum-content a {
         font-size: 1.2rem;
     }
 }

@@ -157,6 +157,6 @@ export const pokeManagerAppHtml = `
     </p>
     <p>
         If you have any questions or suggestions about our
-        Privacy Policy, do not hesitate to contact us at sh-coding@googlegroups.com.
+        Privacy Policy, do not hesitate to contact us at <a href="mailto:mail@severin-hanke.de" title="Email"</a>mail@severin-hanke.de.
     </p>
 `;

@@ -22,3 +22,16 @@
     color: white;
     font-size: 1.8rem;
 }
+
+#aboutme-content div a {
+    color: white;
+    text-decoration: none;
+}
+
+#div-aboutme {
+    margin-bottom: 30px;
+}
+
+.about-me-point {
+    color: midnightblue;
+}

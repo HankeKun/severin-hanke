@@ -1,7 +1,7 @@
 import "./Links.css";
 import "./LinksMedia.css";
 import React from "react";
-import {faGithub, faInstagram, faTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Pokeball from "../images/Pokeball.png";
@@ -19,6 +19,10 @@ function Links() {
                         <FontAwesomeIcon icon={faGithub}/>
                         <span>GitHub</span>
                     </a>
+                    <a href="https://www.linkedin.com/in/severin-hanke-788513232/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin}/>
+                        <span>LinkedIn</span>
+                    </a>
                     <a href="https://www.instagram.com/HankeKun/" title="Instagram" target="_blank"
                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram}/>
@@ -33,10 +37,10 @@ function Links() {
                         <FontAwesomeIcon icon={faYoutube}/>
                         <span>YouTube</span>
                     </a>
-                    <a href="https://www.twitter.com/HankeKun" title="Twitter" target="_blank"
+                    <a href="https://www.twitter.com/HankeKun" title="Twitter / X" target="_blank"
                        rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faTwitter}/>
-                        <span>Twitter</span>
+                        <FontAwesomeIcon icon={faXTwitter}/>
+                        <span>Twitter / X</span>
                     </a>
                     <a href="https://www.pokewiki.de/Darkrai" title="Lieblingspokémon" target="_blank"
                        rel="noopener noreferrer">

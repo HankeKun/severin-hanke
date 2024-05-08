@@ -20,7 +20,7 @@ function SHCoding() {
             </div>
             <div id="shcoding-apps-content">
                 <div>
-                    <a className="upper-a" href="https://www.poke-base.com" title="Poké-Manager Play Store" target="_blank" rel="noopener noreferrer">
+                    <a className="upper-a" href="https://www.poke-manager.com" title="Poké-Manager Webseite" target="_blank" rel="noopener noreferrer">
                         <img src={PokeManagerIcon} alt="Poké-Manager Icon"/>
                         <span>Poké-Manager App</span>
                     </a>
