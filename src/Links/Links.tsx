@@ -1,7 +1,7 @@
 import "./Links.css";
 import "./LinksMedia.css";
 import React from "react";
-import {faGithub, faInstagram, faLinkedin, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {faGithub, faInstagram, faLinkedin, faThreads, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Pokeball from "../images/Pokeball.png";
@@ -19,7 +19,8 @@ function Links() {
                         <FontAwesomeIcon icon={faGithub}/>
                         <span>GitHub</span>
                     </a>
-                    <a href="https://www.linkedin.com/in/severin-hanke-788513232/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/severin-hanke-788513232/" title="LinkedIn" target="_blank"
+                       rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin}/>
                         <span>LinkedIn</span>
                     </a>
@@ -27,6 +28,11 @@ function Links() {
                        rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faInstagram}/>
                         <span>Instagram</span>
+                    </a>
+                    <a href="https://www.threads.net/@hankekun" title="Threads" target="_blank"
+                       rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faThreads}/>
+                        <span>Threads</span>
                     </a>
                     <a href="mailto:mail@severin-hanke.de" title="Email">
                         <FontAwesomeIcon icon={faEnvelope}/>
