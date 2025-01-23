@@ -11,15 +11,16 @@ function AboutMe() {
             <div id="aboutme-content">
                 <h1 id="h1-aboutme">Über mich</h1>
                 <div id="div-aboutme">
-                    Hi, ich bin Mobile Computing-Student im Master mit einem großen Interesse an Appentwicklung.
-                    Desweiteren liebe ich Pokémon und Wandertouren mit meiner Verlobten 😊
-                    Bei Spielen und GitHub bin ich meistens mit dem Namen HankeKun unterwegs.
+                    Hallo, ich bin Severin!<br/><br/>
+                    Ich habe meinen Master of Science in Mobile Computing abgeschlossen und bin leidenschaftlich daran interessiert, innovative digitale Lösungen zu entwickeln.<br/><br/>
+                    Wenn ich nicht gerade programmiere, tauche ich in die faszinierende Welt der Pokémon ein oder erkunde mit meiner Verlobten die schönsten Wanderwege – immer auf der Suche nach neuen Abenteuern 😊<br/><br/>
+                    In der Gaming- und Entwickler-Community bin ich meist als HankeKun unterwegs, sowohl bei Spielen als auch auf GitHub. Schau gerne vorbei!
                 </div>
                 <div>
                     <span className="about-me-point">Aktueller Arbeitgeber:</span>
                     <a href="https://vomatec.de/" title="VOMATEC" target="_blank" rel="noopener noreferrer"> <span>VOMATEC Innovations GmbH</span></a>
                     <br/>
-                    <span className="about-me-point">Rolle:</span> App-Entwickler / Masterarbeit schreiben
+                    <span className="about-me-point">Aufgaben:</span> App- & Web-Entwicklung
                     <br/>
                     <span className="about-me-point">Aktuelles Projekt:</span>
                     <a href="https://play.google.com/store/apps/details?id=com.vomatec.crewapp" title="Crew-App Android"

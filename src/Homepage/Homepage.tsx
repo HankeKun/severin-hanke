@@ -18,7 +18,7 @@ function Homepage() {
                 <img src={SeverinWaldalgesheim} alt="Manga Severin"/>
                 <div id="homepage-title">
                     <h1>Severin Hanke</h1>
-                    <div>Mobile Computing-Student & App-Entwickler</div>
+                    <div>App-Entwickler bei VOMATEC Innovations GmbH</div>
                 </div>
             </div>
             <Footer/>
