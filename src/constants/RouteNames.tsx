@@ -1,12 +1,12 @@
 export class RouteNames {
-    static aboutMe: string = "/About-Me";
-    static links: string = "/Links";
-    static galerie: string = "/Galerie";
-    static galerieBadKreuznach: string = RouteNames.galerie + "/Bad-Kreuznach";
-    static galerieBernkastelKues: string = RouteNames.galerie + "/Bernkastel-Kues";
-    static galerieWaldalgesheim: string = RouteNames.galerie + "/Waldalgesheim";
+    static aboutMe: string = "/about-me";
+    static links: string = "/links";
+    static gallery: string = "/gallery";
+    static galerieBadKreuznach: string = RouteNames.gallery + "/Bad-Kreuznach";
+    static galerieBernkastelKues: string = RouteNames.gallery + "/Bernkastel-Kues";
+    static galerieWaldalgesheim: string = RouteNames.gallery + "/Waldalgesheim";
     static shCoding: string = "/SH-Coding";
     static shCodingPokeManager: string = RouteNames.shCoding + "/Poke-Manager";
     static shCodingCountdowns: string = RouteNames.shCoding + "/Countdowns";
-    static impressum: string = "/Impressum";
+    static legalNotice: string = "/legal-notice";
 }

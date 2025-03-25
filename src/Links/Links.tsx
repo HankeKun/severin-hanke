@@ -7,8 +7,11 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Pokeball from "../images/Pokeball.png";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import {useTranslation} from "react-i18next";
 
 function Links() {
+    const {t} = useTranslation();
+
     return (
         <div id="links-div">
             <Header/>
@@ -34,9 +37,9 @@ function Links() {
                         <FontAwesomeIcon icon={faThreads}/>
                         <span>Threads</span>
                     </a>
-                    <a href="mailto:mail@severin-hanke.de" title="Email">
+                    <a href="mailto:mail@severin-hanke.de" title={t('email')}>
                         <FontAwesomeIcon icon={faEnvelope}/>
-                        <span>E-Mail</span>
+                        <span>{t('email')}</span>
                     </a>
                     <a href="https://www.youtube.com/@HankeKun" title="YouTube" target="_blank"
                        rel="noopener noreferrer">
@@ -48,10 +51,10 @@ function Links() {
                         <FontAwesomeIcon icon={faXTwitter}/>
                         <span>Twitter / X</span>
                     </a>
-                    <a href="https://www.pokewiki.de/Darkrai" title="Lieblingspokémon" target="_blank"
+                    <a href="https://www.pokewiki.de/Darkrai" title={t('favoritePokemon')} target="_blank"
                        rel="noopener noreferrer">
                         <img src={Pokeball} alt="Pokeball"/>
-                        <span>Lieblingspokémon</span>
+                        <span>{t('favoritePokemon')}</span>
                     </a>
                 </div>
             </div>

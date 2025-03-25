@@ -7,34 +7,37 @@ import {RouteNames} from "../constants/RouteNames";
 
 import CountdownsIcon from "../images/Apps/Countdowns-Icon.png";
 import PokeManagerIcon from "../images/Apps/Poke-Manager-Icon.png";
+import {useTranslation} from "react-i18next";
 
 function SHCoding() {
+    const {t} = useTranslation();
+
     return (
         <div id="shcoding-div">
             <Header />
             <div id="shcoding-content">
                 <h1>SH Coding</h1>
                 <div>
-                    SH Coding ist das Einzelunternehmen unter denen jegliche Softwareprojekte von mir veröffentlicht werden.
+                    {t('shCodingDescription')}
                 </div>
             </div>
             <div id="shcoding-apps-content">
                 <div>
-                    <a className="upper-a" href="https://www.poke-manager.com" title="Poké-Manager Webseite" target="_blank" rel="noopener noreferrer">
-                        <img src={PokeManagerIcon} alt="Poké-Manager Icon"/>
-                        <span>Poké-Manager App</span>
+                    <a className="upper-a" href="https://www.poke-manager.com" title={`Poké-Manager ${t('website')}`} target="_blank" rel="noopener noreferrer">
+                        <img src={PokeManagerIcon} alt={`Poké-Manager ${t('icon')}`}/>
+                        <span>Poké-Manager</span>
                     </a>
-                    <a href={RouteNames.shCodingPokeManager} title="Privacy Policy">
-                        <span>Privacy Policy</span>
+                    <a href={RouteNames.shCodingPokeManager} title={t('privacyPolicy')}>
+                        <span>{t('privacyPolicy')}</span>
                     </a>
                 </div>
                 <div>
                     <a className="upper-a" href="https://play.google.com/store/apps/details?id=de.shcoding.countdown" title="Countdowns Play Store" target="_blank" rel="noopener noreferrer">
-                        <img src={CountdownsIcon} alt="Countdowns Icon"/>
-                        <span>Countdowns App</span>
+                        <img src={CountdownsIcon} alt={`Countdowns ${t('icon')}`}/>
+                        <span>Countdowns</span>
                     </a>
-                    <a href={RouteNames.shCodingCountdowns} title="Privacy Policy">
-                        <span>Privacy Policy</span>
+                    <a href={RouteNames.shCodingCountdowns} title={t('privacyPolicy')}>
+                        <span>{t('privacyPolicy')}</span>
                     </a>
                 </div>
             </div>
