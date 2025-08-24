@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.c8bfe674.css",
-    "main.js": "/static/js/main.26ac325f.js",
-    "static/js/488.7b963dd9.chunk.js": "/static/js/488.7b963dd9.chunk.js",
+    "main.js": "/static/js/main.7423e4e8.js",
+    "static/js/488.27b76454.chunk.js": "/static/js/488.27b76454.chunk.js",
     "static/media/magic.mp4": "/static/media/magic.5e5eccae4495403238bf.mp4",
     "static/media/Severin_Waldalgesheim-512.png": "/static/media/Severin_Waldalgesheim-512.eabad9230eaf86776424.png",
     "static/media/Poke-Manager-Icon.png": "/static/media/Poke-Manager-Icon.fdf3476f5439bb009cf2.png",
     "static/media/Pokeball.png": "/static/media/Pokeball.2171ba033ffe64102d49.png",
     "index.html": "/index.html",
     "main.c8bfe674.css.map": "/static/css/main.c8bfe674.css.map",
-    "main.26ac325f.js.map": "/static/js/main.26ac325f.js.map",
-    "488.7b963dd9.chunk.js.map": "/static/js/488.7b963dd9.chunk.js.map"
+    "main.7423e4e8.js.map": "/static/js/main.7423e4e8.js.map",
+    "488.27b76454.chunk.js.map": "/static/js/488.27b76454.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8bfe674.css",
-    "static/js/main.26ac325f.js"
+    "static/js/main.7423e4e8.js"
   ]
 }
