@@ -17,6 +17,7 @@ import App from "./SHCoding/App/App";
 import Impressum from "./Impressum/Impressum";
 import {countdownsAppHtml} from "./constants/CountdownsApp";
 import {pokeManagerAppHtml} from "./constants/PokeManagerApp";
+import {inkLogAppHtml} from "./constants/InkLogApp";
 
 import enTranslation from './locales/en-translation.json';
 import deTranslation from './locales/de-translation.json';
@@ -47,6 +48,7 @@ root.render(
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
               <Route path={RouteNames.shCodingPokeManager} element={<App title="Poké-Manager" html={pokeManagerAppHtml}/>}/>
               <Route path={RouteNames.shCodingCountdowns} element={<App title="Countdowns" html={countdownsAppHtml}/>}/>
+              <Route path={RouteNames.shCodingInkLog} element={<App title="InkLog" html={inkLogAppHtml}/>}/>
               <Route path={RouteNames.legalNotice} element={<Impressum/>}/>
               <Route path="*" element={<Homepage/>}/>
           </Routes>
