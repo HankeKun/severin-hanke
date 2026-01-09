@@ -2,7 +2,7 @@
   "name": "severin-hanke",
   "version": "1.1.0",
   "private": true,
-  "homepage": "https://severin-hanke.de",
+  "homepage": "https://www.severin-hanke.de",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
