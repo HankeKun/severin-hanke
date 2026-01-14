@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 import {useTranslation} from "react-i18next";
 
 import SeverinWaldalgesheim from "../images/Severin_Waldalgesheim-512.png";
-import video from "../images/magic.mp4"
+import video from "../images/magic.webm"
 
 function Homepage() {
     const {t} = useTranslation();
@@ -15,7 +15,7 @@ function Homepage() {
         <div id="homepage-div">
             <Header/>
             <video id="homepage-video" playsInline={true} autoPlay={true} muted={true} loop={true}>
-                <source src={video} type="video/mp4"/>
+                <source src={video} type="video/webm"/>
             </video>
             <div id="homepage-content">
                 <img src={SeverinWaldalgesheim} alt="Severin"/>

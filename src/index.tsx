@@ -41,10 +41,6 @@ root.render(
               <Route index element={<Homepage/>}/>
               <Route path={RouteNames.aboutMe} element={<AboutMe/>}/>
               <Route path={RouteNames.links} element={<Links/>}/>
-              {/*<Route path={RouteNames.gallery} element={<Galerie/>}/>*/}
-              {/*<Route path={RouteNames.galerieBadKreuznach} element={<GalerieItem images={imagesBadKreuznach} title="Bad Kreuznach"/>}/>*/}
-              {/*<Route path={RouteNames.galerieBernkastelKues} element={<GalerieItem images={imagesBernkastelKues} title="Bernkastel-Kues"/>}/>*/}
-              {/*<Route path={RouteNames.galerieWaldalgesheim} element={<GalerieItem images={imagesWaldalgesheim} title="Waldalgesheim"/>}/>*/}
               <Route path={RouteNames.shCoding} element={<SHCoding/>}/>
               <Route path={RouteNames.shCodingPokeManager} element={<App title="Poké-Manager" html={pokeManagerAppHtml}/>}/>
               <Route path={RouteNames.shCodingCountdowns} element={<App title="Countdowns" html={countdownsAppHtml}/>}/>
