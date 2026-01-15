@@ -5,8 +5,8 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import {RouteNames} from "../constants/RouteNames";
 
-import CountdownsIcon from "../images/Apps/Countdowns-Icon.png";
-import PokeManagerIcon from "../images/Apps/Poke-Manager-Icon.png";
+import CountdownsIcon from "../images/Apps/Countdowns-Icon.webp";
+import PokeManagerIcon from "../images/Apps/Poke-Manager-Icon.webp";
 import {useTranslation} from "react-i18next";
 
 function SHCoding() {

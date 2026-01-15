@@ -4,7 +4,7 @@ import React from "react";
 import {faGithub, faInstagram, faLinkedin, faThreads, faXTwitter, faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import Pokeball from "../images/Pokeball.png";
+import Pokeball from "../images/Pokeball.webp";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import {useTranslation} from "react-i18next";

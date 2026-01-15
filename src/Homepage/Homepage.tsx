@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import {useTranslation} from "react-i18next";
 
-import SeverinWaldalgesheim from "../images/Severin_Waldalgesheim-512.png";
+import SeverinWaldalgesheim from "../images/Severin_Waldalgesheim-512.webp";
 import video from "../images/magic.webm"
 
 function Homepage() {
