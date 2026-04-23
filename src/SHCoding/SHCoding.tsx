@@ -23,7 +23,7 @@ function SHCoding() {
             </div>
             <div id="shcoding-apps-content">
                 <div>
-                    <a className="upper-a" href="https://www.poke-manager.com" title={`Poké-Manager ${t('website')}`} target="_blank" rel="noopener noreferrer">
+                    <a className="upper-a" href="https://poke-manager.severin-hanke.de" title={`Poké-Manager ${t('website')}`} target="_blank" rel="noopener noreferrer">
                         <img src={PokeManagerIcon} alt={`Poké-Manager ${t('icon')}`}/>
                         <span>Poké-Manager</span>
                     </a>
