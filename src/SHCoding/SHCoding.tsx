@@ -7,6 +7,7 @@ import {RouteNames} from "../constants/RouteNames";
 
 import CountdownsIcon from "../images/Apps/Countdowns-Icon.webp";
 import PokeManagerIcon from "../images/Apps/Poke-Manager-Icon.webp";
+import YourTurnIcon from "../images/Apps/YourTurn-Icon.webp";
 import {useTranslation} from "react-i18next";
 
 function SHCoding() {
@@ -38,6 +39,12 @@ function SHCoding() {
                     </a>
                     <a href={RouteNames.shCodingCountdowns} title={t('privacyPolicy')}>
                         <span>{t('privacyPolicy')}</span>
+                    </a>
+                </div>
+                <div>
+                    <a className="upper-a" href="https://yourturn.severin-hanke.de" title={`YourTurn ${t('website')}`} target="_blank" rel="noopener noreferrer">
+                        <img src={YourTurnIcon} alt={`YourTurn ${t('icon')}`}/>
+                        <span>YourTurn</span>
                     </a>
                 </div>
             </div>
