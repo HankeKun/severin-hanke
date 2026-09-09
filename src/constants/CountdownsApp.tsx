@@ -158,7 +158,7 @@ export const countdownsAppHtml = `
     </p>
     <p>
         If you have any questions or suggestions about our
-        Privacy Policy, do not hesitate to contact us at <a href="mailto:mail@severin-hanke.de" title="Email"</a>mail@severin-hanke.de.
+        Privacy Policy, do not hesitate to contact us at <a href="mailto:mail@severin-hanke.de" title="Email">mail@severin-hanke.de</a>.
     </p>
     <p>
         This privacy policy page was created at

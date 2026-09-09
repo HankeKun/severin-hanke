@@ -1,6 +1,7 @@
 import "./Footer.css";
 import "./FooterMedia.css";
 import React from "react";
+import {Link} from "react-router-dom";
 import {RouteNames} from "../constants/RouteNames";
 import {faReact, faFontAwesome} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -12,7 +13,7 @@ function Footer() {
     return (
         <footer>
             <div id="footer-content">
-                <a id="footer-impressum" href={RouteNames.legalNotice}>{t('legalNotice')}</a>
+                <Link id="footer-impressum" to={RouteNames.legalNotice}>{t('legalNotice')}</Link>
 
                 <span>{t('websiteCreatedBy')}</span>
 

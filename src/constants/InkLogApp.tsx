@@ -53,5 +53,5 @@ export const inkLogAppHtml = `
     <p>By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.</p>
 
     <strong>Contact Us</strong>
-    <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at <a href="mailto:mail@severin-hanke.de" title="Email"</a>mail@severin-hanke.de.</p>
+    <p>If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at <a href="mailto:mail@severin-hanke.de" title="Email">mail@severin-hanke.de</a>.</p>
 `;

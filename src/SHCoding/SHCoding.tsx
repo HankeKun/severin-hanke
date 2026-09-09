@@ -3,6 +3,7 @@ import "./SHCodingMedia.css";
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import {Link} from "react-router-dom";
 import {RouteNames} from "../constants/RouteNames";
 
 import CountdownsIcon from "../images/Apps/Countdowns-Icon.webp";
@@ -28,18 +29,18 @@ function SHCoding() {
                         <img src={PokeManagerIcon} alt={`Poké-Manager ${t('icon')}`}/>
                         <span>Poké-Manager</span>
                     </a>
-                    <a href={RouteNames.shCodingPokeManager} title={t('privacyPolicy')}>
+                    <Link to={RouteNames.shCodingPokeManager} title={t('privacyPolicy')}>
                         <span>{t('privacyPolicy')}</span>
-                    </a>
+                    </Link>
                 </div>
                 <div>
                     <a className="upper-a" href="https://play.google.com/store/apps/details?id=de.shcoding.countdown" title="Countdowns Play Store" target="_blank" rel="noopener noreferrer">
                         <img src={CountdownsIcon} alt={`Countdowns ${t('icon')}`}/>
                         <span>Countdowns</span>
                     </a>
-                    <a href={RouteNames.shCodingCountdowns} title={t('privacyPolicy')}>
+                    <Link to={RouteNames.shCodingCountdowns} title={t('privacyPolicy')}>
                         <span>{t('privacyPolicy')}</span>
-                    </a>
+                    </Link>
                 </div>
                 <div>
                     <a className="upper-a" href="https://yourturn.severin-hanke.de" title={`YourTurn ${t('website')}`} target="_blank" rel="noopener noreferrer">

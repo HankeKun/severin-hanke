@@ -4,7 +4,7 @@ import React from "react";
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 
-function App(props: {title: string, html: any}) {
+function App(props: {title: string, html: string}) {
     return (
         <div id="app-div">
             <Header />

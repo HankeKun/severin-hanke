@@ -2,10 +2,9 @@ import React from "react";
 import ReactDOMClient from "react-dom/client";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {RouteNames} from "./constants/RouteNames";
-import i18next from "i18next";
-import {initReactI18next} from "react-i18next";
-import LanguageDetector from 'i18next-browser-languagedetector';
+import ScrollToTop from "./ScrollToTop";
 
+import "./i18n";
 import "./index.css";
 import reportWebVitals from "./tests/reportWebVitals";
 
@@ -19,24 +18,13 @@ import {countdownsAppHtml} from "./constants/CountdownsApp";
 import {pokeManagerAppHtml} from "./constants/PokeManagerApp";
 import {inkLogAppHtml} from "./constants/InkLogApp";
 
-import enTranslation from './locales/en-translation.json';
-import deTranslation from './locales/de-translation.json';
-
-i18next.use(LanguageDetector).use(initReactI18next).init({
-    interpolation: {escapeValue: false},
-    fallbackLng: 'en',
-    resources: {
-        en: {translation: enTranslation},
-        de: {translation: deTranslation},
-    },
-})
-
 const root = ReactDOMClient.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
       <BrowserRouter>
+          <ScrollToTop/>
           <Routes>
               <Route index element={<Homepage/>}/>
               <Route path={RouteNames.aboutMe} element={<AboutMe/>}/>

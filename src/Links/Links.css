@@ -39,5 +39,6 @@
 #links-a a svg, #links-a a img {
     color: white;
     height: 6rem;
+    width: auto;
     margin: auto;
 }

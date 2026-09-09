@@ -1,34 +1,44 @@
 import "./Header.css";
 import "./HeaderMedia.css";
-import React from "react";
+import React, {useState} from "react";
+import {Link} from "react-router-dom";
 import {RouteNames} from "../constants/RouteNames";
 import {useTranslation} from "react-i18next";
 
 function Header() {
     const {t} = useTranslation();
+    const [open, setOpen] = useState(false);
 
     function toggleBar() {
-        const hamburgerMenu = document.getElementById("hamburger-menu");
-        const headerNav = document.getElementById("header-nav");
-        if (hamburgerMenu !== null && headerNav !== null) {
-            hamburgerMenu.classList.toggle("change");
-            headerNav.classList.toggle("change");
-        }
+        setOpen(current => !current);
     }
 
     return (
         <header>
-            <div id="hamburger-menu" onClick={() => toggleBar()}>
+            <div id="hamburger-menu"
+                 className={open ? "change" : undefined}
+                 role="button"
+                 tabIndex={0}
+                 aria-controls="header-nav"
+                 aria-expanded={open}
+                 aria-label={t('menu')}
+                 onClick={toggleBar}
+                 onKeyDown={event => {
+                     if (event.key === "Enter" || event.key === " ") {
+                         event.preventDefault();
+                         toggleBar();
+                     }
+                 }}>
                 <div id="hamburger-menu-bar1"/>
                 <div id="hamburger-menu-bar2"/>
                 <div id="hamburger-menu-bar3"/>
             </div>
-            <nav id="header-nav">
-                <a href="/">{t('homepage')}</a>
-                <a href={RouteNames.aboutMe}>{t('aboutMe')}</a>
-                <a href={RouteNames.links}>{t('links')}</a>
-                {/*<a href={RouteNames.gallery}>Galerie</a>*/}
-                <a href={RouteNames.shCoding}>SH Coding</a>
+            <nav id="header-nav" className={open ? "change" : undefined} onClick={() => setOpen(false)}>
+                <Link to="/">{t('homepage')}</Link>
+                <Link to={RouteNames.aboutMe}>{t('aboutMe')}</Link>
+                <Link to={RouteNames.links}>{t('links')}</Link>
+                {/*<Link to={RouteNames.gallery}>Galerie</Link>*/}
+                <Link to={RouteNames.shCoding}>SH Coding</Link>
             </nav>
         </header>
     );
